@@ -1,0 +1,110 @@
+/* v6.4 — design additions retain existing teal/gold brand and respect reduced-motion */
+.mobile-footer-details{display:none}
+@media(max-width:760px){
+ .app-footer{padding:18px 0 calc(110px + env(safe-area-inset-bottom)) !important}
+ .app-footer .footer-inner,.app-footer .footer-bottom{display:none !important}
+ .mobile-footer-details{display:block;margin:0 auto;width:min(94%,520px);background:#f5fbf7;color:#143b42;border:1px solid #b7d9ce;border-radius:22px;overflow:hidden;box-shadow:0 8px 22px #021c2533}
+ .mobile-footer-details summary{display:flex;align-items:center;gap:12px;cursor:pointer;list-style:none;padding:17px 20px;min-height:56px;font-weight:800;line-height:1.45}
+ .mobile-footer-details summary::-webkit-details-marker{display:none}
+ .mobile-footer-details summary:focus-visible{outline:3px solid #ffc754;outline-offset:-3px}
+ .mobile-footer-heading{flex:1;color:#124046;font-size:16px}
+ .mobile-footer-version{direction:ltr;unicode-bidi:isolate;font-size:12px;color:#41636a;font-weight:700}
+ .mobile-footer-chevron{font-size:25px;transition:transform .2s;color:#09545b}
+ .mobile-footer-details[open] .mobile-footer-chevron{transform:rotate(180deg)}
+ .mobile-footer-content{padding:3px 20px 19px;border-top:1px solid #c9ddd7}
+ .mobile-footer-section{padding:14px 0 3px;border-bottom:1px solid #d6e9e3}
+ .mobile-footer-section strong{display:block;font-size:16px;color:#124047}
+ .mobile-footer-section p{font-size:15px;color:#23444b;line-height:1.85;margin:7px 0}
+ .mobile-footer-note{font-size:13px;line-height:1.8;color:#3c5c61}
+ body.dark .mobile-footer-details{background:#123d46;color:#fff;border-color:#7aaca7}
+ body.dark .mobile-footer-content{border-color:#5c898c}
+ body.dark .mobile-footer-section{border-color:#416d71}
+ body.dark .mobile-footer-heading,body.dark .mobile-footer-section strong,body.dark .mobile-footer-section p{color:#fff}
+ body.dark .mobile-footer-version,body.dark .mobile-footer-chevron,body.dark .mobile-footer-note{color:#d5f4ef}
+}
+/* A focused, readable teaching mode (content remains plain text and selectable). */
+.classroom-dialog{width:min(1060px,calc(100vw - 24px));max-height:min(96vh,980px);max-height:min(96dvh,980px);border:0;padding:0;border-radius:28px;background:#fffdf6;color:#193d42;box-shadow:0 30px 90px #001c2bbf;overflow:auto}
+.classroom-dialog::backdrop{background:#001c2fcc;backdrop-filter:blur(3px)}
+.classroom-shell{padding:clamp(16px,3vw,28px);display:grid;gap:16px}
+.classroom-head{display:flex;gap:16px;align-items:flex-start;justify-content:space-between}
+.classroom-head h2{font-family:'Cairo',sans-serif;font-size:clamp(21px,3vw,34px);margin:6px 0}
+.classroom-head p{font-size:15px;line-height:1.6;margin:5px 0;color:#43616b}
+.classroom-kicker{font-size:13px;font-weight:800;color:#00776d}
+.classroom-close{border:1px solid #9ebab8;background:#fff;border-radius:14px;color:#174951;font-size:28px;min-width:46px;min-height:46px;cursor:pointer}
+.classroom-progress-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;color:#0a6c68;font-weight:800;font-size:14px}
+#classroomProgressBar{width:100%;height:10px;accent-color:#0e827e}
+.classroom-content{display:grid;grid-template-columns:minmax(240px,1fr) minmax(0,1.05fr);gap:20px;align-items:stretch}
+.classroom-art{border-radius:20px;border:1px solid #cde7e0;background:linear-gradient(135deg,#eafaf4,#f6f7ff);padding:16px;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.classroom-art svg{width:100%;max-height:250px;height:auto;display:block}
+.classroom-art p{margin:0;text-align:center;color:#365862;font-size:13px;font-weight:700}
+.classroom-step{background:#ffffff;border:1px solid #e4e7de;border-radius:20px;padding:clamp(18px,3vw,30px);min-height:235px;display:flex;flex-direction:column;justify-content:center}
+.classroom-number{font-size:14px;color:#087c77;font-weight:900}
+.classroom-step h3{font-family:'Cairo',sans-serif;font-size:clamp(22px,3vw,34px);line-height:1.5;margin:3px 0 10px;color:#073e47}
+.classroom-step p{font-size:clamp(17px,2vw,22px);line-height:1.9;color:#234149;margin:0}
+.classroom-step .classroom-tip{font-size:14px;margin-top:20px;background:#edf8ef;border-right:4px solid #89b27e;padding:10px 13px;border-radius:9px;color:#244a39}
+.classroom-timer{border:1px solid #cde2dc;background:#f5faf8;border-radius:18px;padding:15px}
+.timer-heading h3{font-size:18px;margin:0;color:#164651}.timer-heading p{font-size:13px;margin:3px 0 12px;color:#42616a}
+.timer-controls{display:flex;gap:9px;align-items:end;flex-wrap:wrap}
+.timer-controls label{display:flex;flex-direction:column;gap:3px;font-size:14px;color:#194c51;font-weight:700}
+.timer-controls input{width:72px;min-height:44px;border:1px solid #8cb5b5;background:white;border-radius:10px;padding:6px 10px;text-align:center;color:#123e46}
+#classroomClock{font:800 28px/1.4 system-ui,sans-serif;direction:ltr;color:#113c48;min-width:92px;text-align:center}
+.classroom-timer-btn,.classroom-timer-secondary,.classroom-actions button{border-radius:12px;border:1px solid #11645e;padding:11px 15px;min-height:46px;font:700 15px 'Cairo',sans-serif;cursor:pointer}
+.classroom-timer-btn,.classroom-primary{background:#096b69;color:#fff;border-color:#096b69}
+.classroom-timer-secondary,.classroom-secondary{background:white;color:#14525b}
+#classroomTimerNotice{font-size:13px;color:#235866;min-height:20px;margin:7px 0 0}
+.classroom-actions{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
+.classroom-actions button{flex:1;min-width:145px;font-size:16px}
+.classroom-actions button:disabled{opacity:.55;cursor:not-allowed}
+.classroom-source{color:#47636a;font-size:13px;line-height:1.6;margin:0}
+.classroom-dialog :focus-visible{outline:3px solid #e9a92d;outline-offset:3px}
+body.dark .classroom-dialog{background:#11363e;color:#f2fcfa}
+body.dark .classroom-head p,body.dark .classroom-art p,body.dark .classroom-progress-top,body.dark .classroom-kicker{color:#dbf7ed}
+body.dark .classroom-step{background:#17454d;border-color:#537c80}
+body.dark .classroom-step h3,body.dark .classroom-step p{color:#f5fcfa}
+body.dark .classroom-art{background:#e8f5f1}
+body.dark .classroom-timer{background:#17454d;border-color:#547f85}
+body.dark .timer-heading h3,body.dark .timer-heading p,body.dark .timer-controls label,body.dark .classroom-source,body.dark #classroomTimerNotice{color:#e8f8f5}
+body.dark .classroom-step .classroom-tip{color:#17493c}
+body.dark #classroomClock{color:#fff}
+@media(max-width:640px){
+ .classroom-dialog{width:100vw;height:100dvh;max-width:none;max-height:none;border-radius:0;}
+ .classroom-shell{min-height:100%;gap:12px;padding:16px 16px calc(25px + env(safe-area-inset-bottom))}
+ .classroom-content{grid-template-columns:1fr;gap:12px}
+ .classroom-art{padding:9px}
+ .classroom-art svg{max-height:170px}
+ .classroom-step{min-height:auto;padding:17px}
+ .classroom-step p{font-size:18px}
+}
+@media(prefers-reduced-motion:reduce){.mobile-footer-chevron{transition:none !important}.classroom-dialog *{animation:none !important;transition:none !important}}
+@media print{.mobile-footer-details,.classroom-dialog{display:none !important}}
+
+.classroom-stepmap{display:flex;flex-wrap:wrap;gap:10px;padding:10px;border-radius:16px;background:#e7f3ee;border:1px solid #cfe2dc}
+.classroom-map-step{flex:1;min-width:110px;display:flex;align-items:center;gap:8px;justify-content:center;border:1px solid #9ebbb8;background:#fff;color:#22505a;padding:9px 12px;min-height:46px;border-radius:12px;font:700 13px/1.6 Cairo,Tajawal,sans-serif;text-align:right;cursor:pointer}
+.classroom-map-step span{flex:none;display:grid;place-items:center;width:25px;height:25px;border-radius:50%;border:1px solid currentColor;font:800 12px sans-serif}
+.classroom-map-step.is-active{background:#075c60;color:#fff;border-color:#075c60}
+body.dark .classroom-stepmap{background:#1d4349;border-color:#538087}
+@media(max-width:640px){.classroom-map-step{min-width:calc(50% - 10px);flex:1;font-size:12px}}
+/* Explicit override: legacy footer text used white !important on a dark background. */
+@media(max-width:760px){
+ .app-footer .mobile-footer-content p,
+ .app-footer .mobile-footer-content .mobile-footer-note{
+   color:#254a4f !important;opacity:1 !important;filter:none !important;
+   font:600 15px/1.9 Tajawal,Cairo,system-ui,sans-serif !important;
+ }
+ .app-footer .mobile-footer-content .mobile-footer-note{font-size:13px !important}
+ body.dark .app-footer .mobile-footer-content p,
+ body.dark .app-footer .mobile-footer-content .mobile-footer-note{color:#f0fcf9 !important}
+}
+
+/* v6.4.1: make favorites a clear destination, rather than silently showing an empty grid */
+.favorites-notice{display:flex;align-items:center;flex-wrap:wrap;gap:14px;padding:16px 20px;margin:18px 0;background:#eaf7f1;color:#164f51;border:1.5px solid #89beb5;border-radius:20px;scroll-margin-top:90px}
+.favorites-notice[hidden]{display:none!important}
+.favorites-notice-icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#fff;color:#e47761;font-size:29px;flex:none}
+.favorites-notice-content{flex:1 1 220px}
+.favorites-notice-content h3{font-size:1.12rem;line-height:1.5;margin:0 0 4px;color:#14494a}
+.favorites-notice-content p{line-height:1.8;margin:0;color:#315c60}
+.favorites-notice button{min-height:44px;flex:none}
+body.dark .favorites-notice{background:#143940;color:#eaf8f3;border-color:#548e89}
+body.dark .favorites-notice-content h3{color:#fff}
+body.dark .favorites-notice-content p{color:#daeeea}
+@media(max-width:700px){.favorites-notice{margin-top:14px;padding:16px 14px;gap:10px}.favorites-notice button{width:100%}}

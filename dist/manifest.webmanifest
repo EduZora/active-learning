@@ -1,0 +1,76 @@
+{
+  "name": "بوصلة التعلّم النشط",
+  "short_name": "بوصلة التعلّم النشط",
+  "description": "بوصلة التعلّم النشط — اكتشف • خطّط • طبّق • قيّم. منصة وكتاب تفاعلي لاستراتيجيات التعلم النشط مع خطوات وأدوات ومؤقت للحصة.",
+  "lang": "ar",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "background_color": "#fbf8ef",
+  "theme_color": "#06505a",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "مكتبة الاستراتيجيات",
+      "short_name": "المكتبة",
+      "url": "./index.html#strategyGrid",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "الكتاب التفاعلي",
+      "short_name": "الكتاب التفاعلي",
+      "url": "./booklet.html",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "حقيبتي التعليمية",
+      "short_name": "حقيبتي",
+      "url": "./index.html#my-bag",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

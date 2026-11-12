@@ -1,0 +1,76 @@
+{
+  "name": "Active Learning Compass — Interactive Teaching Strategies",
+  "short_name": "Learning Compass",
+  "description": "Explore, plan, apply and assess with active learning strategies.",
+  "lang": "en",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./index-en.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone"
+  ],
+  "background_color": "#fbf8ef",
+  "theme_color": "#06505a",
+  "orientation": "any",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Strategy Library",
+      "short_name": "Strategy Library",
+      "url": "./index-en.html#strategyGrid",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Interactive Book",
+      "short_name": "Interactive Book",
+      "url": "./booklet-en.html",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "My Toolkit",
+      "short_name": "My Toolkit",
+      "url": "./index-en.html#my-bag",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

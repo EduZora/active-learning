@@ -1,0 +1,96 @@
+/* Visual refinements for the Bousla learning guide. Keeps the established teal-and-paper identity. */
+:root {
+  --polish-ink: #173447;
+  --polish-teal: #12779a;
+  --polish-teal-bright: #0f5d7d;
+  --polish-paper: #fffdf7;
+  --polish-line: rgba(18, 119, 154, .16);
+  --polish-shadow: 0 18px 50px rgba(22, 75, 107, .09);
+}
+
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
+body { text-rendering: optimizeLegibility; }
+
+.topbar {
+  border-bottom: 1px solid var(--polish-line);
+  background: color-mix(in srgb, var(--paper, #fbf8ef) 92%, transparent);
+  box-shadow: 0 4px 18px rgba(16, 55, 56, .045);
+  backdrop-filter: blur(16px);
+}
+.header-inner { min-height: 76px; gap: clamp(10px, 2vw, 26px); }
+.brand { gap: 12px; }
+.brand-icon { filter: drop-shadow(0 5px 8px rgba(7, 86, 93, .16)); }
+.primary-nav a { transition: color .18s ease, background .18s ease; }
+.header-actions { gap: 9px; }
+
+.hero { padding-top: clamp(22px, 4vw, 50px); }
+.hero-layout {
+  border: 1px solid rgba(255,255,255,.72);
+  box-shadow: var(--polish-shadow);
+  isolation: isolate;
+}
+.hero h1 { letter-spacing: -.045em; text-wrap: balance; }
+.hero-lead { max-width: 38rem; line-height: 1.95; }
+.hero-exhibit img { filter: drop-shadow(0 20px 28px rgba(5, 60, 64, .13)); }
+.hero-cta a, .btn, .reset-btn, .load-more, .feature-link, .bag-launch, .install-btn {
+  transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease, border-color .18s ease;
+}
+.hero-cta a:hover, .btn:hover, .reset-btn:hover, .load-more:hover, .feature-link:hover {
+  transform: translateY(-2px);
+}
+.feature-showcase {
+  border: 1px solid var(--polish-line);
+  border-radius: 24px;
+  box-shadow: 0 14px 40px rgba(24, 62, 60, .055);
+}
+.feature-main { gap: clamp(18px, 3vw, 40px); }
+.project-credits { border: 1px solid var(--polish-line); }
+
+.catalog { padding-top: clamp(38px, 6vw, 76px); }
+.section-head { align-items: end; gap: 20px; }
+.section-head h2 { letter-spacing: -.035em; text-wrap: balance; }
+.filters {
+  border: 1px solid var(--polish-line);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--paper, #fffdf7) 86%, #e5f3ed);
+  box-shadow: 0 10px 28px rgba(24, 62, 60, .045);
+}
+.filters input, .filters select, .name-finder input,
+.lesson-plan-form input, .lesson-plan-form select, .lesson-plan-form textarea {
+  border-color: var(--polish-line);
+  transition: border-color .18s ease, box-shadow .18s ease;
+}
+.strategy-card {
+  border: 1px solid var(--polish-line);
+  box-shadow: 0 10px 30px rgba(24, 62, 60, .055);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.strategy-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(13, 119, 118, .35);
+  box-shadow: 0 18px 38px rgba(24, 62, 60, .105);
+}
+.strategy-card:focus-within { border-color: var(--polish-teal-bright); }
+.category-legend { row-gap: 10px; }
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid #d89b3d;
+  outline-offset: 3px;
+}
+button, a { -webkit-tap-highlight-color: transparent; }
+dialog { overscroll-behavior: contain; }
+dialog::backdrop { background: rgba(10, 34, 36, .58); backdrop-filter: blur(3px); }
+
+@media (max-width: 760px) {
+  .header-inner { min-height: 64px; }
+  .hero { padding-top: 16px; }
+  .hero-layout { border-radius: 22px; }
+  .hero-lead { line-height: 1.8; }
+  .section-head { align-items: stretch; }
+  .strategy-card:hover { transform: none; }
+  .mobile-dock { box-shadow: 0 -8px 28px rgba(17, 54, 55, .10); }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

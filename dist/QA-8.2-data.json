@@ -1,0 +1,415 @@
+{
+  "results": [
+    [
+      "desktop/load",
+      "PASS",
+      "('بوصلة التعلّم النشط | اكتشف • خطّط • طبّق • قيّم', '122')"
+    ],
+    [
+      "desktop/references",
+      "PASS",
+      "(28, '', 2)"
+    ],
+    [
+      "desktop/total",
+      "PASS",
+      "True"
+    ],
+    [
+      "desktop/feature",
+      "PASS",
+      "(None, '2 من 4')"
+    ],
+    [
+      "desktop/theme",
+      "PASS",
+      "(None, None)"
+    ],
+    [
+      "desktop/text-size",
+      "PASS",
+      "(None, 'dark')"
+    ],
+    [
+      "desktop/search",
+      "PASS",
+      "(None, 1, 'نعرض 1 من 1 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "desktop/search-reset",
+      "PASS",
+      "(None, 18)"
+    ],
+    [
+      "desktop/goal-filter",
+      "PASS",
+      "(['collab'], 'نعرض 18 من 30 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "desktop/filter-reset",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/stage-chip",
+      "PASS",
+      "(None, 'true')"
+    ],
+    [
+      "desktop/stage-reset",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/quick-search",
+      "PASS",
+      "(None, '6\\nحوض السمك\\n↗')"
+    ],
+    [
+      "desktop/quick-clear",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/first-card",
+      "PASS",
+      "(None, 'فكّر، زاوج، شارك', 3)"
+    ],
+    [
+      "desktop/fav",
+      "PASS",
+      "(None, '♥ إزالة من المفضلة')"
+    ],
+    [
+      "desktop/share-options",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "desktop/share-select",
+      "PASS",
+      "(None, True, None, False)"
+    ],
+    [
+      "desktop/share-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/qr-dialog",
+      "PASS",
+      "(None, True, 'https://101a-l.github.io/101-/?strategy=1')"
+    ],
+    [
+      "desktop/qr-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/lesson-plan",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "desktop/lesson-save",
+      "PASS",
+      "(None, None, False)"
+    ],
+    [
+      "desktop/lesson-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/classroom",
+      "PASS",
+      "(None, True, 'فكّر بمفردك')"
+    ],
+    [
+      "desktop/classroom-layout",
+      "PASS",
+      "0.0"
+    ],
+    [
+      "desktop/classroom-timer",
+      "PASS",
+      "(None, None, None, None, '00:59')"
+    ],
+    [
+      "desktop/classroom-next",
+      "PASS",
+      "(None, 'الخطوة 2 من 3', 'بدء المؤقت')"
+    ],
+    [
+      "desktop/classroom-reset",
+      "PASS",
+      "(None, '01:00')"
+    ],
+    [
+      "desktop/classroom-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/guide-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/favorite-tab",
+      "PASS",
+      "(None, 'نعرض 1 من 1 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "desktop/all-tab",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/compare",
+      "PASS",
+      "(['1'], ['2'], None, True)"
+    ],
+    [
+      "desktop/compare-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/bag",
+      "PASS",
+      "(None, True, 'بياناتك على جهازك\\nحقيبتي التعليمية\\n\\nخطط أنشطتك ومفضلتك وآخر ما قرأته، ')"
+    ],
+    [
+      "desktop/bag-export",
+      "PASS",
+      "⬇ تنزيل نسخة JSON"
+    ],
+    [
+      "desktop/bag-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/install-help",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "desktop/install-close",
+      "PASS",
+      ""
+    ],
+    [
+      "desktop/book-link",
+      "PASS",
+      "3"
+    ],
+    [
+      "mobile/load",
+      "PASS",
+      "('بوصلة التعلّم النشط | اكتشف • خطّط • طبّق • قيّم', '122')"
+    ],
+    [
+      "mobile/references",
+      "PASS",
+      "(28, '', 2)"
+    ],
+    [
+      "mobile/total",
+      "PASS",
+      "True"
+    ],
+    [
+      "mobile/feature",
+      "PASS",
+      "(None, '2 من 4')"
+    ],
+    [
+      "mobile/theme",
+      "PASS",
+      "(None, None)"
+    ],
+    [
+      "mobile/text-size",
+      "FAIL",
+      "Locator.click: Timeout 1700ms exceeded.\nCall log:\n  - waiting for locator(\"#textSizeBtn\")\n    - locator resolved to <button type=\"button\" id=\"textSizeBtn\" title=\"تكبير النص\" aria-pressed=\"false\" aria-label=\"تكبير الخط\" class=\"icon-btn reader-control\">أ+</button>\n  - attempting cl"
+    ],
+    [
+      "mobile/search",
+      "PASS",
+      "(None, 1, 'نعرض 1 من 1 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "mobile/search-reset",
+      "PASS",
+      "(None, 18)"
+    ],
+    [
+      "mobile/goal-filter",
+      "PASS",
+      "(['collab'], 'نعرض 18 من 30 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "mobile/filter-reset",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/stage-chip",
+      "PASS",
+      "(None, 'true')"
+    ],
+    [
+      "mobile/stage-reset",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/quick-search",
+      "PASS",
+      "(None, '6\\nحوض السمك\\n↗')"
+    ],
+    [
+      "mobile/quick-clear",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/first-card",
+      "PASS",
+      "(None, 'فكّر، زاوج، شارك', 3)"
+    ],
+    [
+      "mobile/fav",
+      "PASS",
+      "(None, '♥ إزالة من المفضلة')"
+    ],
+    [
+      "mobile/share-options",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "mobile/share-select",
+      "PASS",
+      "(None, True, None, False)"
+    ],
+    [
+      "mobile/share-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/qr-dialog",
+      "PASS",
+      "(None, True, 'https://101a-l.github.io/101-/?strategy=1')"
+    ],
+    [
+      "mobile/qr-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/lesson-plan",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "mobile/lesson-save",
+      "PASS",
+      "(None, None, False)"
+    ],
+    [
+      "mobile/lesson-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/classroom",
+      "PASS",
+      "(None, True, 'فكّر بمفردك')"
+    ],
+    [
+      "mobile/classroom-layout",
+      "PASS",
+      "0.0"
+    ],
+    [
+      "mobile/classroom-timer",
+      "PASS",
+      "(None, None, None, None, '00:59')"
+    ],
+    [
+      "mobile/classroom-next",
+      "PASS",
+      "(None, 'الخطوة 2 من 3', 'بدء المؤقت')"
+    ],
+    [
+      "mobile/classroom-reset",
+      "PASS",
+      "(None, '01:00')"
+    ],
+    [
+      "mobile/classroom-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/guide-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/favorite-tab",
+      "PASS",
+      "(None, 'نعرض 1 من 1 استراتيجية مطابقة، من أصل 122')"
+    ],
+    [
+      "mobile/all-tab",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/compare",
+      "PASS",
+      "(['1'], ['2'], None, True)"
+    ],
+    [
+      "mobile/compare-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/bag",
+      "FAIL",
+      "Locator.click: Timeout 1700ms exceeded.\nCall log:\n  - waiting for locator(\"#bagBtn\")\n    - locator resolved to <button id=\"bagBtn\" type=\"button\" class=\"bag-launch\" aria-haspopup=\"dialog\" aria-controls=\"bagDialog\">…</button>\n  - attempting click action\n    2 × waiting for element "
+    ],
+    [
+      "mobile/bag-export",
+      "PASS",
+      "⬇ تنزيل نسخة JSON"
+    ],
+    [
+      "mobile/bag-close",
+      "FAIL",
+      "Locator.click: Timeout 1700ms exceeded.\nCall log:\n  - waiting for locator(\"#closeBag\")\n    - locator resolved to <button id=\"closeBag\" type=\"button\" class=\"icon-btn close\" aria-label=\"إغلاق حقيبتي\">✕</button>\n  - attempting click action\n    2 × waiting for element to be visible, "
+    ],
+    [
+      "mobile/install-help",
+      "PASS",
+      "(None, True)"
+    ],
+    [
+      "mobile/install-close",
+      "PASS",
+      ""
+    ],
+    [
+      "mobile/book-link",
+      "PASS",
+      "3"
+    ]
+  ],
+  "pageErrors": []
+}

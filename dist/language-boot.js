@@ -1,0 +1,2 @@
+/* Arabic is the default language; a user's selection is stored locally. */
+(function(){let v='ar';try{v=localStorage.getItem('bousla_lang')==='en'?'en':'ar'}catch{}try{const param=new URLSearchParams(location.search).get('lang');if(param==='en'||param==='ar'){v=param;try{localStorage.setItem('bousla_lang',v)}catch{}}}catch{}window.BOUSALA_LANG=v;document.documentElement.lang=v;document.documentElement.dir=v==='en'?'ltr':'rtl';document.documentElement.classList.toggle('bousala-en',v==='en');})();

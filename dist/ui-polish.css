@@ -1,0 +1,179 @@
+/* v6.3.2 — Editorial/accessibility polishing, same visual identity and data. */
+/* Fix: the prior footer used a nearly-white inner card on a dark field, while its
+   text was white. Here both surfaces and foregrounds use an explicit, readable palette. */
+.app-footer{
+  background:linear-gradient(140deg,#083e47 0%,#07585c 100%) !important;
+  color:#f4fbf8 !important;
+  padding:clamp(28px,4vw,52px) 0 calc(22px + env(safe-area-inset-bottom)) !important;
+  border-top:3px solid #e5c66f !important;
+}
+.app-footer .footer-inner{
+  width:min(1100px,calc(100% - 34px));
+  display:grid !important;
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+  align-items:start !important;
+  gap:clamp(20px,4vw,55px) !important;
+  min-height:0 !important;
+  margin:0 auto;
+  padding:clamp(21px,3.5vw,34px) !important;
+  background:rgba(255,255,255,.08) !important;
+  border:1px solid rgba(255,255,255,.24) !important;
+  border-radius:24px !important;
+  box-shadow:0 14px 32px rgba(0,30,34,.13) !important;
+  color:#f3fbf7 !important;
+  opacity:1 !important;
+  filter:none !important;
+}
+.app-footer .footer-block{
+  display:flex;flex-direction:column;align-items:flex-start;gap:10px;
+  min-width:0;text-align:right;color:#f4fbf8 !important;
+  opacity:1 !important;
+}
+.app-footer .footer-kicker{
+  display:inline-flex;align-items:center;
+  border:1px solid rgba(255,228,155,.43);
+  background:rgba(255,221,142,.13);
+  color:#ffe6a0 !important;
+  border-radius:999px;padding:4px 13px;
+  font:800 12px/1.6 Cairo,Tajawal,system-ui,sans-serif;
+}
+.app-footer h2,
+.app-footer .footer-team h2{
+  margin:1px 0 0;font:800 clamp(16px,2.1vw,21px)/1.65 Cairo,Tajawal,system-ui,sans-serif;
+  color:#fff9e8 !important;text-shadow:none !important;
+}
+.app-footer p,.app-footer .footer-source p{
+  margin:0 !important;
+  font:600 clamp(13px,1.45vw,15px)/1.9 Tajawal,Cairo,system-ui,sans-serif;
+  color:#eef9f5 !important;
+  opacity:1 !important;
+}
+.app-footer .footer-source p strong{color:#fff !important;font:inherit;font-weight:800}
+.app-footer .footer-note{color:#d6ece7 !important;font-size:13px !important}
+.app-footer .footer-book-link{
+  display:inline-flex;gap:8px;align-items:center;justify-content:center;
+  width:max-content;max-width:100%;margin-top:3px;
+  color:#0c4447 !important;background:#ffe49a;
+  padding:8px 15px;border-radius:999px;border:1px solid #f1cf6b;
+  font:800 13px/1.6 Cairo,Tajawal,system-ui,sans-serif;
+  text-decoration:none;
+}
+.app-footer .footer-book-link:hover{background:#fff0be;color:#06383b !important}
+.app-footer .footer-prep-label{
+  display:inline-flex;padding:3px 13px;border:1px solid rgba(255,255,255,.32);
+  border-radius:999px;background:rgba(255,255,255,.10);
+  color:#ffe8ac !important;
+  font:800 12px/1.6 Cairo,Tajawal,system-ui,sans-serif;
+}
+.app-footer .footer-names{
+  display:flex;flex-direction:column;gap:9px;width:100%;
+  border-inline-start:2px solid rgba(255,227,154,.54);
+  padding-inline-start:14px;min-width:0;
+}
+.app-footer .footer-names span{
+  display:block;color:#fff !important;opacity:1 !important;
+  font:700 clamp(14px,1.75vw,17px)/1.8 Cairo,Tajawal,system-ui,sans-serif;
+  overflow-wrap:break-word;
+}
+.app-footer .footer-bottom{
+  width:min(1100px,calc(100% - 34px));
+  display:flex;justify-content:space-between;align-items:center;
+  gap:12px;flex-wrap:wrap;margin:0 auto;
+  padding:16px 6px 0;color:#d9ede9 !important;
+  font:600 12px/1.6 Tajawal,Cairo,system-ui,sans-serif;
+}
+.app-footer .version-foot{
+  display:inline-flex !important;align-items:center;
+  padding:3px 11px !important;margin:0 !important;
+  font:700 12px/1.6 Tajawal,Cairo,sans-serif !important;
+  color:#ffe49b !important;
+  background:rgba(255,255,255,.08);border-radius:9px;
+}
+/* Compact credits on the homepage stay legible without looking oversized. */
+.project-credits .project-credit-label{
+  color:#07585b !important;
+  font-size:clamp(13px,1.3vw,15px) !important;
+}
+.project-credits .ruqaa-name{
+  color:#193e40 !important;
+  font-size:clamp(13px,1.35vw,15px) !important;
+  line-height:1.8 !important;opacity:1 !important;
+}
+.project-credits .project-source{
+  color:#466260 !important;
+  font-size:12.5px !important;
+  line-height:1.85 !important;
+}
+/* A distinct pictogram for each of the five navigation destinations. */
+.mobile-dock{
+  background:rgba(255,253,246,.98) !important;
+  border:1px solid #c7d9d1 !important;
+  border-bottom:0 !important;
+  box-shadow:0 -8px 30px rgba(7,62,62,.13) !important;
+}
+.mobile-dock .dock-link{
+  min-width:0 !important;flex:1 1 0 !important;
+  padding:8px 2px 7px !important;min-height:68px !important;
+  gap:3px !important;border-radius:17px !important;
+  color:#486360 !important;
+  background:transparent;
+  line-height:1.25;
+}
+.mobile-dock .dock-icon{
+  display:block;flex:none;width:25px;height:25px;
+  stroke:currentColor;fill:none;opacity:1;
+}
+.mobile-dock .dock-link small{
+  display:block;font:800 11.5px/1.45 Tajawal,Cairo,system-ui,sans-serif !important;
+  color:inherit !important;white-space:nowrap;
+}
+.mobile-dock .dock-link[aria-current="page"],
+.mobile-dock .dock-link.active,
+.mobile-dock #dockFavorites[aria-pressed="true"]{
+  color:#fff !important;
+  background:linear-gradient(150deg,#0b7779,#074b55) !important;
+  box-shadow:0 4px 11px rgba(8,83,85,.19);
+}
+.mobile-dock .dock-link:not([aria-current="page"]):not(.active):hover{
+  background:#eaf5e9;color:#0a565d !important;
+}
+.mobile-dock .dock-link:focus-visible{outline:3px solid #de9d2d !important;outline-offset:-1px}
+/* Avoid tiny or low contrast supporting labels in the catalog and footer. */
+.catalog .section-head p,.catalog .results-info{line-height:1.75}
+:where(.filters,.v63-tools) select,
+:where(.filters,.v63-tools) input{font-size:16px}
+@media(max-width:760px){
+  .app-footer{padding:29px 0 calc(108px + env(safe-area-inset-bottom)) !important}
+  .app-footer .footer-inner{grid-template-columns:minmax(0,1fr) !important;gap:24px !important;padding:23px 20px !important}
+  .app-footer h2{font-size:17px !important}
+  .app-footer .footer-names span{font-size:15px !important;line-height:1.8 !important}
+  .app-footer .footer-note{font-size:13px !important}
+  .app-footer .footer-bottom{padding:15px 4px 0}
+  .project-credits .ruqaa-name{font-size:13px !important;line-height:1.75 !important}
+  .project-credits .project-credit-label{font-size:13px !important}
+  .project-credits .project-source{font-size:12px !important}
+}
+@media(max-width:365px){
+  .mobile-dock{padding-inline:4px !important;gap:1px !important}
+  .mobile-dock .dock-link{padding-inline:1px !important;min-height:65px !important}
+  .mobile-dock .dock-icon{width:23px;height:23px}
+  .mobile-dock .dock-link small{font-size:10.8px !important;letter-spacing:-.15px}
+  .app-footer .footer-inner{width:calc(100% - 20px);padding:18px 15px !important}
+  .app-footer .footer-bottom{width:calc(100% - 20px)}
+}
+body.dark .app-footer{background:linear-gradient(140deg,#062d35,#053e45) !important}
+body.dark .app-footer .footer-inner{background:rgba(255,255,255,.08) !important;border-color:rgba(255,255,255,.2) !important}
+body.dark .project-credits .project-credit-label,body.dark .project-credits .ruqaa-name{color:#f0f9f6 !important}
+body.dark .project-credits .project-source{color:#d6e8e4 !important}
+body.dark .mobile-dock{background:#143c41f7 !important;border-color:#527875 !important}
+body.dark .mobile-dock .dock-link{color:#d3ebe7 !important}
+body.dark .mobile-dock .dock-link[aria-current="page"],body.dark .mobile-dock .dock-link.active,body.dark .mobile-dock #dockFavorites[aria-pressed="true"]{color:#fff !important}
+@media(prefers-reduced-motion:reduce){.mobile-dock *,.app-footer *{animation:none !important;transition:none !important}}
+@media print{
+  .mobile-dock{display:none !important}
+  .app-footer{background:#fff !important;color:#111 !important;border-top:1px solid #777 !important;padding:15px 0 !important}
+  .app-footer .footer-inner{background:#fff !important;color:#111 !important;border:1px solid #aaa !important;box-shadow:none !important}
+  .app-footer .footer-block,.app-footer h2,.app-footer p,.app-footer .footer-names span{color:#111 !important}
+  .app-footer .footer-kicker,.app-footer .footer-prep-label{color:#111 !important;background:#fff !important}
+  .app-footer .footer-bottom{color:#444 !important}
+}

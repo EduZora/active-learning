@@ -1,0 +1,14 @@
+{
+  "strategies": 122,
+  "english_cards": 122,
+  "english_book_pages": 122,
+  "english_manifest": true,
+  "language_scripts": [
+    "language-boot.js",
+    "english-strategies.js",
+    "english-diagrams.js",
+    "english-ui-map.js",
+    "language-ui.js"
+  ],
+  "ai_service_enabled": false
+}

@@ -1,0 +1,136 @@
+/* v6.4.6 — coherent, fully legible credits across desktop and mobile. */
+.credits-card-v646.project-credits{
+  box-sizing:border-box!important;width:min(920px,calc(100% - 36px))!important;
+  margin:26px auto 7px!important;padding:19px 24px 15px!important;
+  display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)!important;
+  gap:15px 24px!important;align-items:center!important;text-align:right!important;
+  border:1px solid #d0e2d9!important;border-radius:22px!important;
+  background:linear-gradient(130deg,#fffdf7 0%,#f2f9f2 100%)!important;
+  box-shadow:0 8px 22px rgba(18,78,72,.07)!important;
+  color:#173e42!important;opacity:1!important;filter:none!important;
+}
+.credits-card-v646 .credits-masthead{
+  width:auto!important;min-width:0;display:flex!important;align-items:center!important;
+  justify-content:flex-start!important;gap:12px!important;text-align:right!important;
+}
+.credits-card-v646 .credits-spark{
+  flex:0 0 auto;display:grid;place-items:center;width:47px;height:47px;
+  background:#e0f0e5;border:1px solid #c6e2d3;border-radius:14px;
+  color:#0e746d!important;font-size:24px!important;
+}
+.credits-card-v646 .credits-identity-heading{min-width:0}
+.credits-card-v646 .credits-eyebrow{display:block;color:#607a73!important;font:700 11px/1.7 Cairo,Tajawal,sans-serif;letter-spacing:.01em}
+.credits-card-v646 .project-credit-label{
+  display:block;margin:0!important;padding:0!important;border:0!important;
+  color:#0c5956!important;font:800 clamp(15px,1.55vw,19px)/1.6 Cairo,Tajawal,sans-serif!important;
+}
+.credits-card-v646 .credits-team{
+  margin:0!important;padding:0 18px 0 0!important;min-width:0;width:auto!important;
+  display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:stretch!important;
+  gap:7px!important;border-right:1px solid #d4e5d9!important;text-align:right!important;
+}
+.credits-card-v646 .project-preparation-heading{
+  display:inline-flex!important;align-self:flex-start!important;margin:0!important;
+  border:1px solid #dce9d0!important;border-radius:99px!important;
+  background:#e9f2e4!important;color:#276153!important;
+  padding:3px 13px!important;font:800 12px/1.6 Cairo,Tajawal,sans-serif!important;
+}
+.credits-card-v646 .project-preparer-names{
+  width:100%!important;min-width:0;display:flex!important;flex-direction:column!important;
+  justify-content:flex-start!important;align-items:stretch!important;gap:3px!important;
+}
+.credits-card-v646 .ruqaa-name{
+  display:block!important;margin:0!important;padding:1px 0!important;border:0!important;
+  background:none!important;box-shadow:none!important;border-radius:0!important;
+  color:#234f4b!important;font:700 14px/1.8 Cairo,Tajawal,sans-serif!important;
+  white-space:normal!important;overflow-wrap:normal!important;text-align:right!important;
+}
+.credits-card-v646 .project-source{
+  grid-column:1/-1;width:100%!important;margin:0!important;padding:10px 0 0!important;
+  border:0!important;border-top:1px solid #d9e8df!important;
+  font:500 12px/1.8 Tajawal,Cairo,sans-serif!important;color:#4b6867!important;text-align:right!important;
+}
+.credits-card-v646 .project-source strong{font-weight:800;color:#1e5957}
+/* Detail footer on large screens: preserve the same hierarchy and equal-size names. */
+.app-footer .footer-identity-v646 .footer-prep-label{display:inline-flex!important;padding:4px 13px!important;border-radius:99px!important}
+.app-footer .footer-identity-v646 .footer-names{display:grid!important;grid-template-columns:1fr!important;gap:7px!important}
+.app-footer .footer-identity-v646 .footer-names span{
+  display:block!important;margin:0!important;font:700 15px/1.85 Cairo,Tajawal,sans-serif!important;
+  letter-spacing:0!important;white-space:normal!important;
+}
+/* Compact expandable attribution in the mobile footer. */
+.app-footer .mobile-footer-identity-v646{display:grid;gap:3px;text-align:right}
+.app-footer .mobile-footer-identity-v646 .footer-identity-label{
+  display:inline-block;justify-self:start;font:800 12px/1.6 Cairo,Tajawal,sans-serif;
+  color:#347069;background:#e4f2e9;border-radius:99px;padding:3px 12px;margin:2px 0 3px;
+}
+.app-footer .mobile-footer-identity-v646 strong{
+  font:800 16px/1.7 Cairo,Tajawal,sans-serif!important;color:#154e4a!important;
+}
+.app-footer .mobile-footer-identity-v646 .footer-preparation-label{margin-top:11px}
+.app-footer .mobile-footer-identity-v646 .footer-name-list{display:grid;gap:5px}
+.app-footer .mobile-footer-identity-v646 .footer-name-list p{
+  margin:0!important;padding:0!important;font:700 14px/1.85 Cairo,Tajawal,sans-serif!important;
+  color:#214d4b!important;opacity:1!important;
+}
+@media(max-width:760px){
+  .credits-card-v646.project-credits{
+    width:calc(100% - 12px)!important;margin:17px auto 4px!important;
+    padding:15px 17px!important;grid-template-columns:minmax(0,1fr)!important;
+    gap:11px!important;border-radius:19px!important;
+  }
+  .credits-card-v646 .credits-masthead{gap:10px!important}
+  .credits-card-v646 .credits-spark{width:40px;height:40px;font-size:20px!important}
+  .credits-card-v646 .project-credit-label{font-size:15px!important;line-height:1.55!important}
+  .credits-card-v646 .credits-team{
+    border-right:0!important;border-top:1px solid #d9e8df!important;
+    padding:10px 0 0!important;gap:5px!important;
+  }
+  .credits-card-v646 .project-preparer-names{gap:1px!important}
+  .credits-card-v646 .ruqaa-name{font-size:13.7px!important;line-height:1.68!important}
+  .credits-card-v646 .project-source{font-size:11.6px!important;line-height:1.7!important;padding-top:9px!important}
+}
+@media(max-width:370px){
+  .credits-card-v646 .ruqaa-name{font-size:13px!important}
+  .credits-card-v646 .project-credit-label{font-size:14px!important}
+}
+body.dark .credits-card-v646.project-credits{
+  background:linear-gradient(130deg,#173f43,#1c4c48)!important;border-color:#5d8980!important;
+  color:#f3faf5!important;
+}
+body.dark .credits-card-v646 .credits-spark{background:#255b55;border-color:#5f9088;color:#f8df9e!important}
+body.dark .credits-card-v646 .credits-eyebrow{color:#c0dcd5!important}
+body.dark .credits-card-v646 .project-credit-label,
+body.dark .credits-card-v646 .ruqaa-name{color:#f1faf5!important}
+body.dark .credits-card-v646 .credits-team{border-color:#537b73!important}
+body.dark .credits-card-v646 .project-preparation-heading{background:#315f52!important;color:#e7f9e9!important;border-color:#587d6e!important}
+body.dark .credits-card-v646 .project-source{color:#d3e7e3!important;border-color:#507e71!important}
+body.dark .credits-card-v646 .project-source strong{color:#f1faf5!important}
+body.dark .app-footer .mobile-footer-identity-v646 .footer-identity-label{background:#2a5551;color:#e7f7f2}
+body.dark .app-footer .mobile-footer-identity-v646 strong,
+body.dark .app-footer .mobile-footer-identity-v646 .footer-name-list p{color:#f2faf7!important}
+@media print{
+  .credits-card-v646.project-credits{background:#fff!important;border-color:#a7c2bb!important;box-shadow:none!important}
+  .credits-card-v646 .project-credit-label,.credits-card-v646 .ruqaa-name{color:#173f43!important}
+}
+/* Keep the source note and reference link readable inside the expanded footer. */
+.app-footer .mobile-footer-details .mobile-footer-note{
+  color:#365c5b!important;opacity:1!important;filter:none!important;
+  font:600 13px/1.85 Tajawal,Cairo,sans-serif!important;
+}
+.app-footer .mobile-footer-details .mobile-footer-note a{
+  color:#075c58!important;text-decoration:underline!important;text-underline-offset:3px;
+  font-weight:800!important;opacity:1!important;
+}
+body.dark .app-footer .mobile-footer-details .mobile-footer-note{color:#e1f0ec!important}
+body.dark .app-footer .mobile-footer-details .mobile-footer-note a{color:#d8f5ee!important}
+
+/* v6.4.8: Print lesson plans in the active tab (Safari/WhatsApp popup-safe). */
+#lessonPrintSheet{display:none}
+@media print{
+ body.printing-lesson > :not(#lessonPrintSheet){display:none!important}
+ body.printing-lesson #lessonPrintSheet{display:block!important;position:static!important;background:#fff!important;color:#19373a!important;direction:rtl;font:16px/1.85 Arial,Tahoma,sans-serif;margin:1.2cm auto!important;padding:0!important;max-width:18cm}
+ #lessonPrintSheet h1{font:bold 21px/1.7 Arial,Tahoma,sans-serif;margin:0 0 16px;color:#144e55}
+ #lessonPrintSheet pre{white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.8 Arial,Tahoma,sans-serif;margin:0 0 20px}
+ #lessonPrintSheet p{font:12px/1.7 Arial,Tahoma,sans-serif;color:#365c60;border-top:1px solid #ccd;padding-top:12px}
+}

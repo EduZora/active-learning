@@ -1,0 +1,71 @@
+/* v6.1.0 UX/readability/accessibility polishing (source data unchanged). */
+:root{color-scheme:light}
+body.dark{color-scheme:dark}
+/* The search is now above the featured carousel; keep spatial rhythm. */
+.hero-utilities{padding-top:10px;margin-bottom:16px!important}
+.feature-showcase{margin-bottom:14px}
+.hero .name-finder-controls input{font-size:16px!important}
+.name-finder-controls{position:relative}
+.feature-controls button{min-height:44px;min-width:44px}
+/* Avoid hard-to-read footnotes and credits. */
+.project-credits .project-source{font-size:12px!important;line-height:1.8!important}
+.project-credits .project-preparation-heading{font-size:12px!important}
+.project-credits .ruqaa-name{font-size:13px!important;line-height:1.85!important}
+.mobile-dock .dock-link small{font-size:11px!important;line-height:1.35!important}
+.hero .name-finder-heading span:not(.finder-symbol){font-size:12px!important;line-height:1.6!important}
+.feature-tags span{font-size:12px}
+button, a, input, select, textarea{touch-action:manipulation}
+/* High-visibility keyboard focus that is not clipped by rounded controls. */
+:where(button,a,input,select,textarea,summary):focus-visible{outline:3px solid #ffcc5d!important;outline-offset:3px!important}
+#catalogTitle,#strategyGrid{scroll-margin-top:24px}
+@media(max-width:700px){
+  .hero-utilities{padding-top:8px;margin-bottom:14px!important}
+  .project-credits{padding:12px 9px!important}
+  .project-credits .project-credit-label{font-size:13px!important}
+  .project-credits .ruqaa-name{font-size:12px!important;line-height:1.85!important}
+  .project-credits .project-source{font-size:11.5px!important;line-height:1.75!important}
+  .hero .hero-stats small{font-size:11px!important}
+  .hero .name-finder-controls input{font-size:16px!important;min-height:52px}
+  .mobile-dock .dock-link{min-height:60px}
+  .mobile-dock .dock-link small{font-size:11px!important}
+  .feature-controls button{min-width:44px;min-height:44px}
+  .hero .name-finder-heading span:not(.finder-symbol){font-size:12px!important}
+}
+@media(max-width:360px){
+  .topbar .brand-copy strong{font-size:12px!important}
+  .hero .hero-lead{font-size:14px!important;line-height:1.75!important}
+  .hero-cta a{font-size:12px!important}
+  .hero-trust{font-size:10.5px!important}
+  .project-credits .project-source{font-size:11px!important}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto!important}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+.mobile-reader-button{display:none}
+@media(max-width:700px){.mobile-reader-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px}}
+
+/* v6.4.3: clear, accessible catalogue ordering and PDF access */
+.catalog-order-note {margin:12px 0 8px;padding:9px 14px;border-radius:13px;color:#12443e;background:#edf9f5;border:1px solid #cdebe0;font-size:clamp(13px,1.4vw,15px);line-height:1.7;}
+body.dark .catalog-order-note{background:#1c3935;color:#f4f9e8;border-color:#42675d;}
+.filters #orderFilter{min-height:44px;min-width:150px;}
+@media(max-width:700px){.catalog-order-note{margin:12px 0 9px;font-size:14px;} .filters #orderFilter{width:100%;}}
+
+
+/* v6.4.4 – research bibliography, collapsed by default */
+.app-references-wrap{margin:10px auto 16px;}
+.app-references{border-radius:18px;border:1px solid rgba(255,255,255,.32);background:rgba(255,255,255,.10);color:#f8faf4;overflow:hidden;}
+.app-references summary{list-style:none;cursor:pointer;padding:15px 19px;min-height:48px;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:clamp(15px,1.6vw,18px);font-weight:800;color:#fff;}
+.app-references summary::-webkit-details-marker{display:none;}
+.app-references summary:focus-visible{outline:3px solid #edda74;outline-offset:-4px;}
+.app-references[open] summary .references-arrow{transform:rotate(180deg);}
+.app-references-body{padding:0 20px 18px;color:#f1f8f3;line-height:1.85;font-size:14px;}
+.app-references-body p{margin:8px 0 14px;}
+.app-references-body ol{padding:0 24px 0 0;margin:8px 0 14px;display:grid;gap:11px;}
+.app-references-body li{padding:0 0 8px;border-bottom:1px solid rgba(255,255,255,.17);overflow-wrap:anywhere;}
+.app-references-body a,.mobile-footer-content a[href="#projectReferences"]{color:#fff1a7;text-decoration:underline;text-underline-offset:3px;}
+.app-references-body a:hover{text-decoration-thickness:2px;}
+.app-references-body .ref-role{display:block;font-size:13px;opacity:.94;}
+.app-references-body .attribution-note{background:rgba(0,0,0,.15);padding:11px 13px;border-radius:12px;border-inline-start:3px solid #f9d87d;}
+@media(max-width:680px){.app-references-wrap{margin:10px 14px 18px}.app-references-body{font-size:13.5px;padding:0 14px 16px}.app-references-body ol{padding-right:20px}.app-references summary{font-size:15px;padding:13px 14px}}

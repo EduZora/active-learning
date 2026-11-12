@@ -1,0 +1,16 @@
+/* إضافة مخطط المناهج العمانية؛ محفوظة ضمن هوية بوصلة الأصلية */
+.lesson-plan-dialog{width:min(900px,calc(100% - 20px));}
+.oman-curriculum-head{display:flex;align-items:center;justify-content:space-between;gap:16px;background:linear-gradient(110deg,#e3f4ed,#fff5d9);border:1px solid #c1e1d5;border-radius:16px;padding:14px 17px;margin:12px 0 15px;color:#174d4d;}
+.oman-curriculum-head strong{font-size:17px}.oman-curriculum-head p{margin:3px 0 0;font-size:13px;line-height:1.8}.oman-curriculum-head a{white-space:nowrap;color:#075f69;font-weight:800;font-size:13px}
+.lesson-plan-form select{width:100%;min-width:0;padding:10px 11px;border:1px solid var(--line-strong);border-radius:12px;color:var(--ink);background:var(--paper);font-size:15px;}
+.lesson-plan-form label:nth-child(4){grid-column:auto}.lesson-plan-form label.lesson-wide{grid-column:1/-1}
+.required-mini{font-size:10px;font-weight:700;color:#91622e;margin-inline-start:5px}
+.oman-curriculum-note{background:var(--bg-soft);padding:12px 14px;border-radius:13px;border-inline-start:4px solid #c99b44;font-size:12px;line-height:1.8;color:var(--ink);margin-top:12px}
+.oman-curriculum-note a{font-weight:800;color:var(--primary)}
+.lesson-planner-tools{display:flex;flex-direction:column;gap:12px;margin:16px 0;padding:17px;border:1px solid #c8ddda;border-radius:18px;background:linear-gradient(155deg,rgba(30,139,130,.11),rgba(241,204,106,.12));}
+.lesson-planner-tools h3{margin:0 0 5px;font-size:19px}.lesson-planner-tools p{margin:0;line-height:1.9;color:var(--muted);font-size:13px}
+.lesson-planner-buttons{display:flex;flex-wrap:wrap;gap:9px}.lesson-planner-buttons .btn{min-height:44px;flex:1 1 220px}
+#lessonPlanOrigin{font-weight:700}
+@media(max-width:600px){.oman-curriculum-head{flex-direction:column;align-items:flex-start}.lesson-plan-form .lesson-wide{grid-column:auto}.lesson-planner-tools{padding:13px}.lesson-planner-tools h3{font-size:17px}}
+body.dark .oman-curriculum-head{background:#183c42;color:#f3f7f5;border-color:#4a6563}
+body.dark .oman-curriculum-head a{color:#c4f2e7}

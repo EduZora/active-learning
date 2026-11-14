@@ -39,17 +39,24 @@
   <script defer src="v63-data.js"></script>
   <script defer src="english-strategies.js"></script>
   <script defer src="english-content-polish.js"></script>
+  <script defer src="pedagogy-review.js"></script>
   <script defer src="v63.js"></script>
   <script defer src="new-visuals.js"></script>
   <script defer src="english-diagrams.js"></script>
-  <script defer src="vendor/qrcode.min.js"></script><script defer src="qr-code.js"></script><script defer src="app.js"></script>
+  <script defer src="vendor/qrcode.min.js"></script><script defer src="qr-code.js"></script><script defer src="teaching-tools.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="search-directory.js"></script>
+  <script defer src="strategy-advisor.js"></script>
   <script defer src="oman-lesson-planner.js"></script>
   <script defer src="feature.js"></script>
   <script defer src="v64.js"></script>
   <script defer src="english-ui-map.js"></script>
   <script defer src="language-ui.js"></script>
   <link rel="stylesheet" href="english.css" />
-<link rel="stylesheet" href="design-refinement.css" /></head>
+<link rel="stylesheet" href="design-refinement.css" />
+<link rel="stylesheet" href="strategy-directory.css" />
+<link rel="stylesheet" href="teaching-tools.css" />
+</head>
 <body><div id="globalAnnouncements" class="sr-only" role="status" aria-live="polite"></div>
   <a class="skip" href="#strategyGrid">تجاوز إلى الاستراتيجيات</a>
   <header class="topbar">
@@ -101,6 +108,7 @@
           <div class="name-finder-controls">
             <label class="sr-only" for="quickNameSearch">اسم الاستراتيجية</label>
             <input id="quickNameSearch" type="search" autocomplete="off" inputmode="search" placeholder="ابحث: حوض السمك، جيكسو، فكر زاوج شارك..." aria-label="البحث السريع باسم الاستراتيجية" aria-controls="nameSuggestions" aria-expanded="false" aria-autocomplete="list" />
+            <button id="toggleQuickList" type="button" class="quick-directory-trigger" aria-controls="nameSuggestions" aria-label="عرض جميع الاستراتيجيات" title="عرض جميع الاستراتيجيات">▾</button>
             <button id="clearQuickName" type="button" aria-label="مسح البحث بالاسم" title="مسح البحث بالاسم" hidden>✕</button>
             <div id="nameSuggestions" class="name-suggestions" aria-label="نتائج البحث بالاسم" hidden></div>
           </div>
@@ -121,7 +129,7 @@
           <div class="credits-identity-heading"><span class="credits-eyebrow">الجهة المُعدة</span><h2 class="project-credit-label">وحدة الأحياء بتعليمية البريمي</h2></div>
         </div>
         <div class="credits-team">
-          <span class="project-preparation-heading">إعداد</span>
+          
           <div class="project-preparer-names" aria-label="المُعدّان">
             <span class="ruqaa-name">د. سمية بنت سالم بن محمد النعيمية</span>
             <span class="ruqaa-name">أ. محمد سيد عبد الستار سليم</span>
@@ -132,10 +140,15 @@
     <section class="catalog container" aria-labelledby="catalogTitle">
       <div class="catalog-overline"><span>THE ACTIVE LEARNING LIBRARY</span><span>01—122</span></div>
       <div class="section-head"><div><span class="eyebrow">مكتبة الاستراتيجيات</span><h2 id="catalogTitle">دليلك إلى الاستراتيجيات</h2><p>تصفّح دليلًا عمليًا يضم خطوات التنفيذ والرسوم وأفكار التقويم والتكييف التربوي.</p></div><div class="tabs" role="group" aria-label="طريقة عرض الاستراتيجيات"><button class="tab active" id="allTab" type="button" aria-pressed="true">جميع الاستراتيجيات</button><button class="tab" id="favTab" type="button" aria-pressed="false">♡ مفضلتي <span id="favTabCount">0</span></button></div></div>
-      <p class="stages-note" role="note"><strong>تنويه:</strong> جميع الاستراتيجيات تصلح لجميع المراحل الدراسية، وتقسيم الصفوف (1–4، 4–8، 9–12) اقتراح إرشادي فقط لتسهيل الاختيار، وليس قيدًا على استخدامها.</p>
-      <div class="filters"><label class="search-field"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="بحث شامل: اسم، مهارة، فكرة، مثال…" aria-label="البحث الشامل في محتوى الاستراتيجيات" /></label><label><span class="sr-only">الهدف التعليمي</span><select id="goalFilter"><option value="">كل الأهداف</option></select></label><label><span class="sr-only">نوع الاستراتيجية</span><select id="categoryFilter"><option value="">كل التصنيفات</option></select></label><label><span class="sr-only">الوقت</span><select id="timeFilter"><option value="">كل الأوقات</option><option value="short">حتى 10 دقائق</option><option value="medium">11–20 دقيقة</option><option value="long">أكثر من 20 دقيقة</option></select></label><label><span class="sr-only">نطاق الصفوف المقترح</span><select id="stageFilter"><option value="">جميع الصفوف</option><option value="1-4">1–4</option><option value="4-8">4–8</option><option value="9-12">9–12</option></select></label><button id="resetBtn" class="reset-btn" type="button">مسح الفلاتر</button></div>
-      <div class="filter-shortcuts" aria-label="نطاقات الصفوف المقترحة"><span>صفوف مقترحة:</span><button type="button" data-stage-chip="" class="stage-pill active" aria-pressed="true">الجميع</button><button type="button" data-stage-chip="1-4" class="stage-pill" aria-pressed="false">1–4</button><button type="button" data-stage-chip="4-8" class="stage-pill" aria-pressed="false">4–8</button><button type="button" data-stage-chip="9-12" class="stage-pill" aria-pressed="false">9–12</button></div>
-      <div class="v63-tools" aria-label="مقارنة استراتيجيتين"><h3>⇄ مقارنة استراتيجيتين</h3><label>الاستراتيجية الأولى<select id="compareA"></select></label><label>الاستراتيجية الثانية<select id="compareB"></select></label><button type="button" id="compareStart" class="btn primary">عرض المقارنة</button><p id="compareStatus" role="status" aria-live="polite"></p></div>
+      <p class="stages-note" role="note"><strong>تنويه:</strong> جميع الاستراتيجيات تصلح لجميع المراحل الدراسية، وتقسيم الصفوف (1–4، 5–8، 9–12) اقتراح إرشادي فقط لتسهيل الاختيار، وليس قيدًا على استخدامها.</p>
+      <div class="filters"><div class="search-field directory-search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="بحث شامل: اسم، مهارة، فكرة، مثال…" aria-label="البحث الشامل في محتوى الاستراتيجيات" /><button type="button" class="directory-toggle" id="strategyDirectoryToggle" aria-controls="strategyDirectory" aria-expanded="false" aria-label="عرض قائمة الاستراتيجيات كاملة" title="عرض قائمة الاستراتيجيات كاملة">▾</button><div id="strategyDirectory" class="strategy-directory" role="listbox" aria-label="عرض قائمة الاستراتيجيات كاملة" hidden></div></div><label><span class="sr-only">الهدف التعليمي</span><select id="goalFilter"><option value="">كل الأهداف</option></select></label><label><span class="sr-only">نوع الاستراتيجية</span><select id="categoryFilter"><option value="">كل التصنيفات</option></select></label><label><span class="sr-only">الوقت</span><select id="timeFilter"><option value="">كل الأوقات</option><option value="short">حتى 10 دقائق</option><option value="medium">11–20 دقيقة</option><option value="long">أكثر من 20 دقيقة</option></select></label><label><span class="sr-only">نطاق الصفوف المقترح</span><select id="stageFilter"><option value="">جميع الصفوف</option><option value="1-4">1–4</option><option value="5-8">5–8</option><option value="9-12">9–12</option></select></label><button id="resetBtn" class="reset-btn" type="button">مسح الفلاتر</button></div>
+      <div class="filter-shortcuts" aria-label="نطاقات الصفوف المقترحة"><span>صفوف مقترحة:</span><button type="button" data-stage-chip="" class="stage-pill active" aria-pressed="true">الجميع</button><button type="button" data-stage-chip="1-4" class="stage-pill" aria-pressed="false">1–4</button><button type="button" data-stage-chip="5-8" class="stage-pill" aria-pressed="false">5–8</button><button type="button" data-stage-chip="9-12" class="stage-pill" aria-pressed="false">9–12</button></div>
+      <section class="decision-guide" id="strategyAdvisor" aria-labelledby="advisorTitle">
+  <div class="decision-guide-heading"><div><span class="eyebrow">مساعد المعلم</span><h3 id="advisorTitle">اختر استراتيجية مناسبة لهدف درسك</h3><p>ترشيحات إرشادية تستند إلى وصف الاستراتيجيات وأغراضها، ولا تمثل ترتيبًا بحثيًا أو حكمًا على الأفضلية.</p></div><span aria-hidden="true" class="decision-guide-icon">✧</span></div>
+  <div class="decision-guide-inputs"><label>هدف الدرس<select id="recPurpose"><option value="">اختر الهدف</option></select></label><label>الصفوف<select id="recGrade"><option value="">جميع الصفوف</option><option value="1-4">1–4</option><option value="5-8">5–8</option><option value="9-12">9–12</option></select></label><label>الوقت المتاح<select id="recTime"><option value="">مرن</option><option value="10">حتى 10 دقائق</option><option value="20">حتى 20 دقيقة</option><option value="40">حتى 40 دقيقة</option></select></label><button class="btn primary" id="recFind" type="button">اقترح استراتيجيات</button></div>
+  <div id="recResults" class="decision-guide-results" aria-live="polite" role="status"><p class="decision-guide-hint">اختر هدف الدرس لعرض اقتراحات تتناسب مع احتياجك.</p></div>
+ </section>
+<div class="v63-tools" aria-label="مقارنة استراتيجيتين"><h3>⇄ مقارنة استراتيجيتين</h3><label>الاستراتيجية الأولى<select id="compareA"></select></label><label>الاستراتيجية الثانية<select id="compareB"></select></label><button type="button" id="compareStart" class="btn primary">عرض المقارنة</button><p id="compareStatus" role="status" aria-live="polite"></p></div>
       <section id="favoritesNotice" class="favorites-notice" role="status" aria-live="polite" hidden>
         <div class="favorites-notice-icon" aria-hidden="true">♡</div>
         <div class="favorites-notice-content"><h3 id="favoritesNoticeTitle">مفضلتي</h3><p id="favoritesNoticeText"></p></div>
@@ -158,7 +171,7 @@
       <div class="mobile-footer-section mobile-footer-identity-v646">
         <span class="footer-identity-label">الجهة المُعدة</span>
         <strong>وحدة الأحياء بتعليمية البريمي</strong>
-        <span class="footer-identity-label footer-preparation-label">إعداد</span>
+        
         <div class="footer-name-list" aria-label="المُعدّان">
           <p>د. سمية بنت سالم بن محمد النعيمية</p>
           <p>أ. محمد سيد عبد الستار سليم</p>
@@ -172,7 +185,7 @@
     <section class="footer-block footer-team footer-identity-v646" aria-labelledby="footerTeamTitle">
       <span class="footer-kicker">الجهة المُعدة</span>
       <h2 id="footerTeamTitle">وحدة الأحياء بتعليمية البريمي</h2>
-      <span class="footer-prep-label">إعداد</span>
+      
       <div class="footer-names" aria-label="اسما مُعدّي التطبيق">
         <span>د. سمية بنت سالم بن محمد النعيمية</span>
         <span>أ. محمد سيد عبد الستار سليم</span>

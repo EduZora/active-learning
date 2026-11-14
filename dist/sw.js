@@ -3,12 +3,12 @@
  * User-generated lesson plans are stored separately in localStorage and NEVER cached here.
  */
 'use strict';
-const VERSION='9.2.0';
+const VERSION='9.2.4-scientific-review-2';
 const CACHE_PREFIX='al101-app-shell-';
 const CACHE_NAME=`${CACHE_PREFIX}v${VERSION}`;
 const CORE=[
  './design-refinement.css','./vendor/qrcode.min.js','./qr-code.js',
-  './','./index.html','./index-ar.html','./index-en.html','./language-boot-ar.js','./language-boot-en.js','./style.css', './website.css','./atelier.css','./app.js','./oman-lesson-planner.js','./oman-lesson-planner.css','./language-boot.js','./english-strategies.js','./english-content-polish.js','./english-diagrams.js','./english-ui-map.js','./language-ui.js','./english.css','./manifest-en.webmanifest','./booklet-en.html','./booklet-ar.html','./visuals.js','./new-visuals.js',
+  './','./index.html','./index-ar.html','./index-en.html','./language-boot-ar.js','./language-boot-en.js','./style.css', './website.css','./atelier.css','./app.js','./oman-lesson-planner.js','./oman-lesson-planner.css','./language-boot.js','./english-strategies.js','./english-content-polish.js','./pedagogy-review.js','./search-directory.js','./strategy-directory.css','./strategy-advisor.js','./teaching-tools.js','./teaching-tools.css','./english-diagrams.js','./english-ui-map.js','./language-ui.js','./english.css','./manifest-en.webmanifest','./booklet-en.html','./booklet-ar.html','./visuals.js','./new-visuals.js',
   './data.js','./v63-data.js','./v63.js','./v63.css','./v64.js','./v64.css','./v8-unified.css','./vision.css','./qa-polish.css','./ui-polish.css','./feature.js','./assets/strategy-universe.webp','./manifest.webmanifest','./booklet.html','./credits-v646.css','./qr-gallery.html','./qr-gallery-en.html',
   './icons/icon-192.png','./icons/icon-512.png',
   './icons/icon-maskable-512.png','./icons/apple-touch-icon.png'
@@ -62,9 +62,10 @@ async function consistentShellNavigation(request,event){
   const bookletEnPath=new URL('booklet-en.html',ROOT).pathname;
   const pdfPath=new URL('booklet.pdf',ROOT).pathname;
   const pdfEnPath=new URL('booklet-en.pdf',ROOT).pathname;
+  const pdfArPath=new URL('booklet-ar.pdf',ROOT).pathname;
   // PDF is an optional large asset: cache only after its first successful opening.
-  if(target.pathname===pdfPath || target.pathname===pdfEnPath){
-    const key=new URL(target.pathname===pdfEnPath?'booklet-en.pdf':'booklet.pdf',ROOT).href;
+  if(target.pathname===pdfPath || target.pathname===pdfArPath || target.pathname===pdfEnPath){
+    const key=new URL(target.pathname===pdfEnPath?'booklet-en.pdf':target.pathname===pdfArPath?'booklet-ar.pdf':'booklet.pdf',ROOT).href;
     const cached=await caches.match(key);
     if(cached)return cached;
     try{

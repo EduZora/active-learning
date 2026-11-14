@@ -73,11 +73,11 @@
   function escapeHTML(value) {
     return String(value).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
   }
-  // النطاقات الرقمية؛ الصف الرابع وارد في النطاقين الأول والثاني حسب التقسيم المطلوب.
+  // النطاقات الرقمية؛ المراحل المدرسية 1–4، 5–8، 9–12 غير متداخلة.
   // هذه ترشيحات تنظيمية فقط ولا تعني أن الاستراتيجيات لا تصلح لصفوف أخرى.
   const STAGE_LABELS = Object.freeze({
     '1-4': '1–4',
-    '4-8': '4–8',
+    '5-8': '5–8',
     '9-12': '9–12'
   });
   function stageNames(stages) { return (stages || []).map(stage => STAGE_LABELS[stage] || stage).join(' • '); }
@@ -523,8 +523,8 @@
     { key:'tools', label:'الأدوات المطلوبة', icon:'🧰', description:'قائمة أدوات التجهيز' },
     { key:'example', label:'مثال توضيحي', icon:'📘', description:'المادة والصف والموقف والسؤال والتطبيق والناتج' },
     { key:'details', label:'الهدف والوقت والمراحل', icon:'🎯', description:'معلومات التخطيط السريع' },
-    { key:'tip', label:'النصيحة الذهبية', icon:'✨', description:'إرشاد عملي للمعلم' },
-    { key:'source', label:'مرجع الاستراتيجيات', icon:'📚', description:'إسناد الكتاب ومصدر المناهج' }
+    { key:'tip', label:'النصيحة الذهبية', icon:'✨', description:'إرشاد عملي للمعلم' }
+
   ];
 
   function shareText(strategy, selected=state.shareSelection) {
@@ -537,7 +537,6 @@
       if(selected.example&&ex)lines.push(`📘 *Example:* ${ex.subject}, ${ex.grade} • ${ex.topic}\nQuestion: ${ex.prompt}\nOutcome: ${ex.outcome}`);
       if(selected.details)lines.push(`🎯 *Objective:* ${strategy.goal} • ⏱ ${durationLabel(strategy.minutes)} • Suggested grades: ${stageNames(strategy.stages)}`);
       if(selected.tip)lines.push(`✨ *Teacher tip:* ${strategy.tip}`);
-      if(selected.source)lines.push(`📖 *Reference:* ${strategy.reference||''} ${strategy.sourceUrl||''}`);
       lines.push('Biology Unit, Al Buraimi Directorate of Education');return lines.join('\n\n');
     }
 
@@ -548,7 +547,6 @@
     if(selected.example && ex) parts.push(`📘 *مثال توضيحي:*\n📘 المادة: ${ex.subject} | ${ex.grade}\n📌 الموضوع: ${ex.topic}\n🏫 الموقف: ${ex.context}\n❓ السؤال: ${ex.prompt}\n👩‍🏫 آلية التنفيذ: ${ex.procedure}\n✅ الناتج: ${ex.outcome}`);
     if(selected.details) parts.push(`🎯 *الهدف:* ${strategy.goal}\n⏱ *الوقت المقترح:* ${durationLabel(strategy.minutes)}\n👥 *صفوف مقترحة فقط:* ${stageNames(strategy.stages)}\n*تنبيه:* جميع الاستراتيجيات قابلة للتطبيق في جميع المراحل مع التكييف المناسب`);
     if(selected.tip) parts.push(`✨ *نصيحة للمعلم:* ${strategy.tip}`);
-    if(selected.source) parts.push(`📖 *المرجع:* ${strategy.reference || 'ماشي بن محمد الشمري، 101 استراتيجية في التعلم النشط'}. ${strategy.sourceUrl||''}`);
     parts.push('وحدة الأحياء بتعليمية البريمي\nإعداد\nد. سمية بنت سالم بن محمد النعيمية\nأ. محمد سيد عبد الستار سليم');
     return parts.join('\n\n');
   }
@@ -635,6 +633,24 @@
         <div><strong>🧩 التكييف للفروق الفردية</strong><p>${escapeHTML(strategy.adaptation || 'نوّع مستوى الدعم وطريقة الاستجابة')}</p></div>
       </div>
       <p class="evaluation-note">هذه أفكار مساندة للمعلم، تُكيّف وفق الهدف والصف والأدلة المتاحة.</p>
+    </section>`;
+  }
+
+  function buildQualityGuidePanel(strategy) {
+    const guide = strategy.qualityGuide;
+    if (!guide) return '';
+    const en=window.BOUSALA_LANG==='en';
+    const list=items=>`<ul>${(items||[]).map(item=>`<li>${escapeHTML(item)}</li>`).join('')}</ul>`;
+    return `<section class="panel evaluation-panel" aria-label="${en?'Classroom guidance for teachers':'إرشادات تطبيقية للمعلم'}">
+      <div class="panel-head"><div><h3>${en?'Put the strategy into practice':'كيف أستخدم الاستراتيجية بفاعلية؟'}</h3>
+        <p>${en?'Draft guidance derived from the strategy steps and example. Check accuracy and adapt to the lesson and learners.':'إرشادات تربوية مقترحة انطلاقًا من خطوات الاستراتيجية ومثالها، تُراجع وتُكيّف وفق المنهج والمتعلمين.'}</p></div></div>
+      <div class="evaluation-grid">
+        <div><strong>${en?'When to use it':'متى تستخدم؟'}</strong><p>${escapeHTML(guide.when)}</p></div>
+        <div><strong>${en?'Success criteria':'معايير النجاح'}</strong>${list(guide.success)}</div>
+        <div><strong>${en?'What to watch for':'ما الذي ألاحظه؟'}</strong>${list(guide.watch)}</div>
+        <div><strong>${en?'Avoid these pitfalls':'أخطاء ينبغي تجنبها'}</strong><p>${escapeHTML(guide.avoid)}</p></div>
+        <div><strong>${en?'Extension':'إثراء'}</strong><p>${escapeHTML(guide.extension)}</p></div>
+      </div>
     </section>`;
   }
 
@@ -726,6 +742,8 @@
       ${classroomExample(strategy)}
       ${buildPedagogyPanel(strategy)}
       ${buildEvaluationPanel(strategy)}
+      ${buildQualityGuidePanel(strategy)}
+      ${window.BOUSALA_TEACHING?.renderAssessment(strategy) || ''}
       ${window.AL101_V63?.renderGuide(strategy)||''}
       <section class="readiness-panel panel" aria-labelledby="readinessTitle"><h3 id="readinessTitle">بطاقة جاهزية الاستراتيجية للتطبيق</h3><p>تحقّق من أربع نقاط قبل بدء الحصة. هذه قائمة إرشادية وليست حكمًا على جاهزية الطلاب.</p>
         <div class="readiness-grid"><label><input type="checkbox" class="readiness-check" /> <span><b>ناتج التعلم واضح</b><small>${escapeHTML(strategy.goal)}</small></span></label><label><input type="checkbox" class="readiness-check" /><span><b>تنظيم المشاركة محدد</b><small>${escapeHTML(pedagogicalAdvice(strategy).pattern.label)}</small></span></label><label><input type="checkbox" class="readiness-check" /><span><b>التقويم جاهز</b><small>كيف أعرف أن الطلاب تعلموا؟</small></span></label><label><input type="checkbox" class="readiness-check" /><span><b>بدائل المشاركة متاحة</b><small>إجابة شفوية أو كتابية أو بصرية</small></span></label></div><p id="readinessStatus" role="status" aria-live="polite">0 من 4 نقاط جاهزة</p></section>
@@ -742,7 +760,7 @@
         <button id="shareStrategyLink" class="btn secondary" type="button">🔗 رابط وQR لهذه الاستراتيجية</button>
       </div>
 <p id="shareCardStatus" class="share-card-status" role="status" aria-live="polite"></p>
-      <p class="dialog-note">📚 <strong>المرجع:</strong> ${escapeHTML(strategy.reference || 'ماشي بن محمد الشمري، 101 استراتيجية في التعلم النشط')}${strategy.sourcePages?.length ? ` • صفحات مرجعية: ${strategy.sourcePages.join('، ')}` : ''}${strategy.sourceUrl ? ` • <a href="${escapeHTML(strategy.sourceUrl)}" target="_blank" rel="noopener noreferrer">عرض المصدر</a>` : ''}. الأمثلة والرسوم والأوقات مقترحات تطبيقية قابلة للتكييف.</p>
+      <p class="dialog-note">الأمثلة والرسوم والأوقات مقترحات تطبيقية قابلة للتكييف. يمكن مراجعة جميع المصادر في قسم المراجع التربوية بالموقع.</p>
     `;
 
     el.content.querySelectorAll('.readiness-check').forEach(input=>input.addEventListener('change',()=>{const count=el.content.querySelectorAll('.readiness-check:checked').length;byId('readinessStatus').textContent=`${count} من 4 نقاط جاهزة`; }));
@@ -807,10 +825,9 @@
   function renderNameSuggestions() {
     const q = norm(el.quickName.value);
     updateClearQuick();
-    if (!q) { closeNameSuggestions(); return; }
-    const matches = DATA.filter(strategy => nameMatches(strategy, q))
-      .sort((a, b) => Number(norm(b.name).startsWith(q)) - Number(norm(a.name).startsWith(q)) || a.id - b.id)
-      .slice(0, 6);
+    const matches = DATA.filter(strategy => !q || nameMatches(strategy, q))
+      .sort((a, b) => q ? Number(norm(b.name).startsWith(q)) - Number(norm(a.name).startsWith(q)) || compareByName(a,b) : compareByName(a,b))
+      .slice(0, DATA.length);
     el.suggestions.innerHTML = matches.length
       ? matches.map(s => `<button class="name-option" type="button" data-quick-open="${s.id}"><span class="name-option-num">${displayNumber(s.id)}</span><span>${escapeHTML(s.name)}</span><span class="name-option-arrow" aria-hidden="true">↗</span></button>`).join('')
       : '<p class="name-empty">لا توجد استراتيجية بهذا الاسم. جرّب جزءًا آخر من الاسم.</p>';
@@ -819,8 +836,12 @@
   }
   function setupNameSearch() {
     el.quickName.addEventListener('input', () => { if(el.quickName.value.trim())el.search.value='';state.visibleLimit=18;renderNameSuggestions(); render(); });
-    el.quickName.addEventListener('focus', () => { if (el.quickName.value) renderNameSuggestions(); });
-    el.clearQuick.addEventListener('click', () => { el.quickName.value = ''; closeNameSuggestions(); updateClearQuick(); render(); el.quickName.focus(); });
+    el.quickName.addEventListener('focus', renderNameSuggestions);
+    el.clearQuick.addEventListener('click', () => { el.quickName.value = ''; updateClearQuick(); render(); el.quickName.focus(); renderNameSuggestions(); });
+    byId('toggleQuickList')?.addEventListener('click', () => {
+      if (el.suggestions.hidden) { el.quickName.focus(); renderNameSuggestions(); }
+      else closeNameSuggestions();
+    });
     el.suggestions.addEventListener('click', event => {
       const target = event.target.closest('[data-quick-open]');
       if (!target) return;
@@ -890,7 +911,7 @@
       `ملاحظة: هذه مسودة إرشادية وليست نموذج تحضير رسميًا.`,
       `وحدة الأحياء بتعليمية البريمي`,
       `إعداد: د. سمية بنت سالم بن محمد النعيمية — أ. محمد سيد عبد الستار سليم`,
-      `المرجع: ${s.reference || 'ماشي بن محمد الشمري، 101 استراتيجية في التعلم النشط'}.`
+      `يمكن الاطلاع على المصادر التربوية في قسم المراجع بالموقع.`
     ].filter(Boolean).join('\n\n');
   }
 

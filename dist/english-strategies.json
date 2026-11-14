@@ -31,9 +31,9 @@
         "topic": "The water cycle",
         "grade": "Grade 5",
         "context": "Illustrative Science activity on the water cycle. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of the water cycle through Think–Pair–Share?",
+        "prompt": "How does cooling moist air contribute to cloud formation?",
         "procedure": "Pose an open question and allow independent thinking. Pair students to compare and improve their ideas. Invite pairs to share their conclusions with the class.",
-        "outcome": "An individual explanation or product that demonstrates thinking and discussion in the context of the water cycle.",
+        "outcome": "A brief scientific explanation of water-vapour condensation and cloud formation.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -75,9 +75,9 @@
         "topic": "Saving water",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on saving water. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of saving water through Think–Pair–Share (Groups)?",
+        "prompt": "How could our school reduce water waste?",
         "procedure": "Ask everyone to think and record an initial response. Discuss ideas in pairs within a group of four. Bring the group together to agree on key points. Invite one representative to share the group's conclusion.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of saving water.",
+        "outcome": "A group plan with three feasible water-saving actions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -119,9 +119,9 @@
         "topic": "Main idea",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on main idea. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of main idea through Think–Write–Pair–Share?",
+        "prompt": "What is the writer's main claim in this paragraph?",
         "procedure": "Ask an open-ended question and allow thinking time. Have each learner write an individual answer. Pair learners to discuss and refine their writing. Invite pairs to share areas of agreement and disagreement.",
-        "outcome": "An individual explanation or product that demonstrates thinking and writing in the context of main idea.",
+        "outcome": "A main-idea statement supported by evidence from the paragraph.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -163,9 +163,9 @@
         "topic": "Life in ancient civilizations",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on life in ancient civilizations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of life in ancient civilizations through Three-Step Interview?",
+        "prompt": "How did access to a river influence where people settled?",
         "procedure": "Assign interviewer, respondent, and observer roles. Conduct a short interview using prepared questions. Switch roles so that everyone practises. Summarize the main insights as a group.",
-        "outcome": "An individual explanation or product that demonstrates communication and listening in the context of life in ancient civilizations.",
+        "outcome": "An interview record explaining how water sources affected settlement.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -206,9 +206,9 @@
         "topic": "Equivalent fractions",
         "grade": "Grade 5",
         "context": "Illustrative Mathematics activity on equivalent fractions. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of equivalent fractions through Showdown?",
+        "prompt": "Are 2/4 and 1/2 equivalent? Explain why.",
         "procedure": "Organize small groups and provide a common question. Learners write private answers before discussing. Reveal all answers simultaneously. Compare reasoning, correct errors, and agree on the solution.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of equivalent fractions.",
+        "outcome": "A correct answer with a mathematical justification.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -249,9 +249,9 @@
         "topic": "Energy sources",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on energy sources. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of energy sources through Rally Robin?",
+        "prompt": "Name some renewable energy sources you know.",
         "procedure": "Present a question with several possible responses. Ask the first partner to contribute an idea. Partners take turns adding new ideas without repetition. Collect and review the pair's responses.",
-        "outcome": "An individual explanation or product that demonstrates idea generation in the context of energy sources.",
+        "outcome": "A classified list of renewable energy sources.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -292,9 +292,9 @@
         "topic": "Character traits in Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on character traits in oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of character traits in oman-related texts through Round Robin?",
+        "prompt": "Which traits describe the main character, and what supports them?",
         "procedure": "Arrange learners in a circle or small group. Give the group a prompt requiring multiple ideas. Each learner contributes in turn. Repeat the round and summarize the group's output.",
-        "outcome": "An individual explanation or product that demonstrates balanced participation in the context of character traits in oman-related texts.",
+        "outcome": "A list of character traits supported by textual evidence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -336,9 +336,9 @@
         "topic": "Linear equations",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on linear equations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of linear equations through Rally Coach?",
+        "prompt": "How do we solve 3x + 2 = 11?",
         "procedure": "Pair learners and assign solver and coach roles. The solver explains each step aloud. The coach asks guiding questions instead of giving answers. Switch roles on the next problem.",
-        "outcome": "An individual explanation or product that demonstrates practice and problem solving in the context of linear equations.",
+        "outcome": "The solution x = 3, verified by substitution.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -379,9 +379,9 @@
         "topic": "Scientific misconceptions",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on scientific misconceptions. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of scientific misconceptions through Find the Fib?",
+        "prompt": "Do all materials expand by the same amount when heated?",
         "procedure": "Present three statements including one inaccurate claim. Ask students to identify the false statement independently. Discuss the evidence within small groups. Correct the claim and explain why it is false.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of scientific misconceptions.",
+        "outcome": "A correction of the false claim, supported by an example.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -423,9 +423,9 @@
         "topic": "Comparing civilizations",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on comparing civilizations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of comparing civilizations through Roving Reporter?",
+        "prompt": "What similarities and differences can you identify between two civilisations?",
         "procedure": "Set a task that produces ideas across several groups. Appoint a travelling reporter in each group. Reporters visit other groups and gather insights. Return to the original group and apply what was learned.",
-        "outcome": "An individual explanation or product that demonstrates knowledge sharing and collaboration in the context of comparing civilizations.",
+        "outcome": "A historically supported comparison table.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -466,9 +466,9 @@
         "topic": "Vocabulary in Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on vocabulary in oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of vocabulary in oman-related texts through Popsicle Sticks?",
+        "prompt": "What does the word 'flourished' mean in this context?",
         "procedure": "Prepare name sticks for fair participation. Ask a question and provide thinking time. Draw a name at random for a response. Support the learner and rotate opportunities fairly.",
-        "outcome": "An individual explanation or product that demonstrates equitable participation in the context of vocabulary in oman-related texts.",
+        "outcome": "An appropriate synonym used in a new sentence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -514,9 +514,9 @@
         "topic": "Marine pollution",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on marine pollution. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of marine pollution through Fishbowl?",
+        "prompt": "Who should take responsibility for protecting the coast from litter?",
         "procedure": "Arrange an inner discussion circle and an outer observer circle. Agree on the issue and observation criteria. Inner-circle learners discuss while observers take notes. Switch inner and outer roles. Debrief the quality of ideas and participation.",
-        "outcome": "An individual explanation or product that demonstrates discussion and observation in the context of marine pollution.",
+        "outcome": "A reasoned discussion summary and an observation record.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -562,9 +562,9 @@
         "topic": "Parts of the digestive system",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on parts of the digestive system. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of parts of the digestive system through Jigsaw?",
+        "prompt": "How do digestive organs work together to process food?",
         "procedure": "Create home groups and distribute different parts of the topic. Form expert groups to study each part. Experts return to teach their home groups. Connect the pieces into a coherent whole. Check individual understanding.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of parts of the digestive system.",
+        "outcome": "A diagram of the route of food that accurately explains the organs' functions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -605,9 +605,9 @@
         "topic": "Language structures",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on language structures. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of language structures through Stand Up–Hand Up–Pair Up?",
+        "prompt": "Find a partner whose sentence uses a similar grammatical pattern.",
         "procedure": "Present a question or short challenge. Ask learners to stand and raise a hand. Each learner finds a partner and pairs up. Partners exchange explanations before changing pairs.",
-        "outcome": "An individual explanation or product that demonstrates movement and interaction in the context of language structures.",
+        "outcome": "Two exchanged examples with corrections and explanations.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -649,9 +649,9 @@
         "topic": "Claims and evidence",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on claims and evidence. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of claims and evidence through Read–Pair–Share?",
+        "prompt": "Which sentence in the text supports the writer's position?",
         "procedure": "Give learners a short text to read. Ask them to identify the central idea and evidence. Pairs exchange their interpretations. Discuss the text in the wider group.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of claims and evidence.",
+        "outcome": "A main-idea statement paired with specific textual evidence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -693,9 +693,9 @@
         "topic": "Influential figures",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on influential figures. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of influential figures through Hot Seat?",
+        "prompt": "How might a historical leader have responded to a crisis?",
         "procedure": "Choose a topic or role for questioning. Invite one learner to the hot seat. Classmates ask focused questions and listen. Rotate the speaker and reflect on new insights.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of influential figures.",
+        "outcome": "Questions and responses grounded in historical facts.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -737,9 +737,9 @@
         "topic": "Properties of matter",
         "grade": "Grade 5",
         "context": "Illustrative Science activity on properties of matter. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of properties of matter through One-Minute Paper?",
+        "prompt": "What is one important difference between melting and evaporation?",
         "procedure": "Choose a useful pause point in the lesson. Ask one focused question about learning. Allow one minute for a written response. Review responses and adapt the next teaching step.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of properties of matter.",
+        "outcome": "A two-line exit ticket that explains a valid difference.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -781,9 +781,9 @@
         "topic": "Respectful discussion",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on respectful discussion. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of respectful discussion through Listening Triangle?",
+        "prompt": "What makes a classroom discussion successful?",
         "procedure": "Arrange groups of three. Assign speaker, listener, and observer roles. Run a structured conversation and record feedback. Rotate roles until all learners have practised.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of respectful discussion.",
+        "outcome": "An active-listening observation checklist.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -825,9 +825,9 @@
         "topic": "Animal groups",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on animal groups. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of animal groups through Who Am I??",
+        "prompt": "Which organism fits these characteristics? Justify your choice.",
         "procedure": "Prepare cards featuring concepts or characters. Hide the learner's card from their view. Ask clue-based questions to identify it. Reveal the answer and explain the supporting clues.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of animal groups.",
+        "outcome": "The organism's name with an evidence-based explanation.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -869,9 +869,9 @@
         "topic": "Explaining phenomena",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on explaining phenomena. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of explaining phenomena through Concept Cartoons?",
+        "prompt": "What role does oxygen in air play when familiar materials burn?",
         "procedure": "Create a cartoon showing a common concept. Present different characters with contrasting explanations. Discuss which claims are supported by evidence. Revisit and revise initial ideas.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of explaining phenomena.",
+        "outcome": "An explanation distinguishing air as a mixture from oxygen's role in combustion.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -913,9 +913,9 @@
         "topic": "Map reading",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on map reading. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of map reading through Information Gap?",
+        "prompt": "How can two incomplete maps be combined to find the destination?",
         "procedure": "Split essential information between partners. Give each learner different information. Partners ask questions without directly showing their sheets. Complete the missing details and verify accuracy.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of map reading.",
+        "outcome": "One accurate and complete combined map.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -957,9 +957,9 @@
         "topic": "Geometric shapes",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on geometric shapes. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of geometric shapes through Hands Down?",
+        "prompt": "Identify five familiar objects with recognisable geometric shapes.",
         "procedure": "Draw a hand outline or provide a hand template. Set a five-part reflection or idea task. Learners write one point on each finger. Compare and discuss the completed hands.",
-        "outcome": "An individual explanation or product that demonstrates balanced participation in the context of geometric shapes.",
+        "outcome": "A five-part hand organiser with correctly identified geometric examples.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1001,9 +1001,9 @@
         "topic": "Problem solving",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on problem solving. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of problem solving through Snowballing?",
+        "prompt": "How can our school reduce its use of plastic?",
         "procedure": "Ask each learner to formulate an independent idea. Combine individuals into pairs to compare views. Merge pairs into larger groups to negotiate a stronger answer. Present the final group response.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of problem solving.",
+        "outcome": "A feasible idea developed through group discussion.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1045,9 +1045,9 @@
         "topic": "Community responsibility",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on community responsibility. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of community responsibility through Socratic Seminar?",
+        "prompt": "Is following the law alone sufficient for building a responsible community?",
         "procedure": "Choose a rich text, issue, or problem with multiple viewpoints. Arrange a discussion circle and agree on norms. Use probing questions and evidence to explore assumptions. Reflect on the quality of reasoning and listening.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of community responsibility.",
+        "outcome": "A summary comparing distinct arguments supported by reasons.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1089,9 +1089,9 @@
         "topic": "Food chains",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on food chains. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of food chains through Sketch to Stretch?",
+        "prompt": "How is energy transferred among organisms in a food chain?",
         "procedure": "Introduce an abstract concept or reading. Ask students to visualize and sketch an interpretation. Invite them to explain symbols in their drawing. Compare sketches and connect them to the concept.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of food chains.",
+        "outcome": "A labelled food-chain diagram with arrows pointing in the direction of energy transfer.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1133,9 +1133,9 @@
         "topic": "Sleep and learning",
         "grade": "Grade 5",
         "context": "Illustrative Life Skills activity on sleep and learning. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of sleep and learning through Five Whys?",
-        "procedure": "Identify an outcome, challenge, or observed event. Ask why it occurred and record the answer. Repeat the why question to trace underlying causes. Review whether the proposed root cause is supported.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of sleep and learning.",
+        "prompt": "What factors might explain why some students feel tired in the morning?",
+        "procedure": "Follow a chain of why questions while checking alternative causes and evidence; the number five is not mandatory.",
+        "outcome": "A tentative, evidence-checked chain of possible causes, not a claim of one certain cause.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1177,9 +1177,9 @@
         "topic": "Water scarcity",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on water scarcity. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of water scarcity through Mini-Cases?",
+        "prompt": "What could a village do if its water reserves declined?",
         "procedure": "Present a brief realistic case with relevant facts. Identify the main issue and available evidence. Propose a justified response or decision. Compare alternatives and reflect on consequences.",
-        "outcome": "An individual explanation or product that demonstrates problem solving in the context of water scarcity.",
+        "outcome": "A proposed decision with two supporting arguments.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1221,9 +1221,9 @@
         "topic": "Conflict resolution",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on conflict resolution. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of conflict resolution through Role Play?",
+        "prompt": "How can two students resolve a disagreement over group work?",
         "procedure": "Define the classroom situation and learning objective. Assign roles and explain boundaries. Act out the situation while others observe. Switch roles where useful and debrief the learning.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of conflict resolution.",
+        "outcome": "A role-play showing a respectful resolution.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1265,9 +1265,9 @@
         "topic": "Problem-solving strategies",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on problem-solving strategies. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of problem-solving strategies through Circle the Sage?",
+        "prompt": "How can we choose an efficient method for solving a word problem?",
         "procedure": "Identify learners with different areas of knowledge. Create small circles around these student experts. Peers listen, question, and record insights. Return to groups and teach what was learned.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of problem-solving strategies.",
+        "outcome": "A collaboratively explained solution method.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1309,9 +1309,9 @@
         "topic": "Organism adaptation",
         "grade": "Grade 5",
         "context": "Illustrative Science activity on organism adaptation. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of organism adaptation through Give One, Get One?",
+        "prompt": "Name an adaptation of a desert animal and explain its function.",
         "procedure": "Draw two columns for giving and receiving ideas. Ask everyone to write one useful idea. Move around to exchange ideas with a peer. Repeat, then discuss the most useful contributions.",
-        "outcome": "An individual explanation or product that demonstrates balanced participation in the context of organism adaptation.",
+        "outcome": "A Give One, Get One sheet linking adaptations to their possible functions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1353,9 +1353,9 @@
         "topic": "Text analysis",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on text analysis. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of text analysis through Cubing?",
+        "prompt": "How can we examine this text from six different perspectives?",
         "procedure": "Select a topic that can be examined from six angles. Prepare a six-sided cube with different prompts. Assign cube faces for description, comparison, and analysis. Combine all six perspectives into a richer explanation.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of text analysis.",
+        "outcome": "Six clearly differentiated perspectives on the text.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1397,9 +1397,9 @@
         "topic": "Fraction operations",
         "grade": "Grade 5",
         "context": "Illustrative Mathematics activity on fraction operations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of fraction operations through Peer Check?",
+        "prompt": "Are the steps used to simplify this fraction correct?",
         "procedure": "Pair learners and provide a shared task. One learner solves while the other checks. Discuss mistakes with reference to criteria. Switch roles and verify the revised answer.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of fraction operations.",
+        "outcome": "A corrected solution with a brief explanation of the error.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1440,9 +1440,9 @@
         "topic": "Environmental adaptations",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on environmental adaptations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of environmental adaptations through Placemat Consensus?",
+        "prompt": "Which adaptation helps a desert plant reduce water loss, and how?",
         "procedure": "Give each group a placemat with individual spaces and a centre. Learners write independently in their own spaces. Compare responses and negotiate agreement. Record the shared conclusion in the centre.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of environmental adaptations.",
+        "outcome": "An agreed explanation that relates a plant feature to its function.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1484,9 +1484,9 @@
         "topic": "Word derivatives",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on word derivatives. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of word derivatives through Round Table?",
+        "prompt": "List words derived from the Arabic root حفظ.",
         "procedure": "Give each group a prompt or unfinished response. The first learner writes an idea on the shared sheet. Pass the sheet so each person adds a contribution. Review the complete answer together.",
-        "outcome": "An individual explanation or product that demonstrates balanced participation in the context of word derivatives.",
+        "outcome": "A set of derived words that correctly identifies their common root.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1528,9 +1528,9 @@
         "topic": "Talking about hobbies",
         "grade": "Grade 7",
         "context": "Illustrative English Language activity on talking about hobbies. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of talking about hobbies through Inside–Outside Circle?",
+        "prompt": "What is your hobby, and how did you start it? Answer in English.",
         "procedure": "Form facing inner and outer circles. Pairs discuss a short question. Rotate one circle to create new pairs. Repeat the exchange and summarize learning.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of talking about hobbies.",
+        "outcome": "Two short spoken dialogues with different partners.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1572,9 +1572,9 @@
         "topic": "Sources of pollution",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on sources of pollution. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of sources of pollution through Four–Two–One?",
+        "prompt": "What should be our first action to reduce air pollution?",
         "procedure": "Ask learners to generate four relevant ideas. Have pairs narrow the list to two. Agree on one strongest idea as a group. Defend the selection using reasons or evidence.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of sources of pollution.",
+        "outcome": "A group priority supported by a reason.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1616,9 +1616,9 @@
         "topic": "Weather and climate",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on weather and climate. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of weather and climate through Partners?",
+        "prompt": "How can everyday examples help us distinguish weather from climate?",
         "procedure": "Create teams of four and assign partners. Divide a common challenge into coordinated tasks. Partners review and support one another. Rejoin the team and combine contributions.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of weather and climate.",
+        "outcome": "A jointly completed card classifying short-term weather and long-term climate.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1660,9 +1660,9 @@
         "topic": "Reviewing living organisms",
         "grade": "Grade 5",
         "context": "Illustrative Science activity on reviewing living organisms. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reviewing living organisms through Fan-N-Pick?",
+        "prompt": "Which group does the described organism belong to, and why?",
         "procedure": "Assign card holder, reader, responder, and coach roles. Draw and read a question card. Provide an answer and helpful feedback. Rotate roles for the next card.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of reviewing living organisms.",
+        "outcome": "A group answer with a classification reason.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1704,9 +1704,9 @@
         "topic": "Describing shapes",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on describing shapes. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of describing shapes through Say What I Draw?",
+        "prompt": "How would you describe a geometric shape without pointing to it?",
         "procedure": "Arrange pairs so that only one can see the picture. Have the observer describe the picture without showing it. The partner draws based on verbal directions. Compare the images and improve communication.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of describing shapes.",
+        "outcome": "A drawing that matches the precise spoken description.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1748,9 +1748,9 @@
         "topic": "Explaining processes",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on explaining processes. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of explaining processes through Thinking Aloud Pair Problem Solving?",
-        "procedure": "Select a problem that requires several reasoning steps. Assign thinker and listener roles. The thinker verbalizes each step as the listener asks clarifying questions. Swap roles and discuss the reasoning.",
-        "outcome": "An individual explanation or product that demonstrates problem solving in the context of explaining processes.",
+        "prompt": "A lesson has 40 minutes. If 8 minutes are set aside for introduction and review, how long is each of four equally timed stations?",
+        "procedure": "A learner explains how to subtract 8 minutes from 40 and divide the remaining 32 minutes by four. A partner questions the reasoning.",
+        "outcome": "Eight minutes per station, with the subtraction and division steps explained.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1792,9 +1792,9 @@
         "topic": "Close reading of Oman-related texts",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on close reading of oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of close reading of oman-related texts through Double-Entry Journals?",
+        "prompt": "Which passage caught your attention, and why did you select it?",
         "procedure": "Divide a journal page into source notes and personal responses. Read and select an important excerpt. Write an interpretation or question opposite the excerpt. Discuss and revise the response.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of close reading of oman-related texts.",
+        "outcome": "A two-column quotation-and-reflection journal.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1836,9 +1836,9 @@
         "topic": "Investigating planets",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on investigating planets. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of investigating planets through Group Investigation?",
+        "prompt": "What properties distinguish the planets in the Solar System?",
         "procedure": "Define a broad question for group investigation. Plan roles, sources, and methods of inquiry. Collect, analyze, and organize findings. Present conclusions and evaluate the investigation.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of investigating planets.",
+        "outcome": "A sourced research poster comparing planetary characteristics.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1880,9 +1880,9 @@
         "topic": "Narrative elements",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on narrative elements. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of narrative elements through Focused Listing?",
+        "prompt": "What are the essential elements of an effective story?",
         "procedure": "Choose a narrow focus or guiding question. List related ideas rapidly and individually. Compare lists with peers. Organize, verify, and refine the items.",
-        "outcome": "An individual explanation or product that demonstrates idea generation in the context of narrative elements.",
+        "outcome": "A focused, organised list of narrative elements.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1924,9 +1924,9 @@
         "topic": "The Al Busaidi state in Oman",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on the al busaidi state in oman. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of the al busaidi state in oman through Send a Problem?",
+        "prompt": "Which historical questions could help explain the role of the Al Busaid dynasty in Oman?",
         "procedure": "Groups prepare a problem and a possible solution. Send the problem to another group. The receiving group solves it and adds reasoning. Return the solutions for comparison and discussion.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of the al busaidi state in oman.",
+        "outcome": "Varied historical questions with evidence-supported answers.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -1968,9 +1968,9 @@
         "topic": "Daily habits",
         "grade": "Grade 5",
         "context": "Illustrative Life Skills activity on daily habits. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of daily habits through Four Corners?",
+        "prompt": "Which healthy daily habit would you like to improve this week, and why?",
         "procedure": "Display four positions or possible answers around the room. Learners move to the corner matching their view. Discuss arguments within each corner. Share evidence and revise positions if persuaded.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of daily habits.",
+        "outcome": "A justified personal choice.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2012,9 +2012,9 @@
         "topic": "Protecting biodiversity",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on protecting biodiversity. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of protecting biodiversity through Brainstorming?",
+        "prompt": "How can our community protect local biodiversity?",
         "procedure": "Define the problem and the rules for generating ideas. Assign a recorder and facilitator. Generate many ideas without immediate criticism. Group, assess, and develop the promising ideas.",
-        "outcome": "An individual explanation or product that demonstrates idea generation in the context of protecting biodiversity.",
+        "outcome": "A board of distinct, feasible conservation ideas.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2056,9 +2056,9 @@
         "topic": "Reviewing triangles",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on reviewing triangles. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reviewing triangles through Numbered Heads Together?",
-        "procedure": "Number learners within each small group. Ask one question for all groups to discuss. Give everyone time to prepare an answer. Call a random number to ensure shared accountability.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of reviewing triangles.",
+        "prompt": "What is the sum of the angles of a triangle? Explain your reasoning.",
+        "procedure": "Learners justify why a triangle in Euclidean plane geometry has an interior-angle sum of 180 degrees.",
+        "outcome": "A shared and reasoned answer: 180 degrees in Euclidean plane geometry.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2100,9 +2100,9 @@
         "topic": "Vocabulary of places",
         "grade": "Grade 7",
         "context": "Illustrative English Language activity on vocabulary of places. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of vocabulary of places through Question Cards?",
+        "prompt": "What does the word 'library' mean in Arabic?",
         "procedure": "Prepare question cards linked to the lesson. Distribute or draw cards. Learners answer and justify their thinking. Exchange cards and repeat.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of vocabulary of places.",
+        "outcome": "Correctly matched English vocabulary and Arabic meanings.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2144,9 +2144,9 @@
         "topic": "Laboratory safety",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on laboratory safety. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of laboratory safety through Shoulder to Shoulder?",
+        "prompt": "What is a safe response if an unknown substance spills in a school laboratory?",
         "procedure": "Pair learners with a shared task. Give each partner individual thinking time. Work together side by side on the task. Present a joint product and explain contributions.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of laboratory safety.",
+        "outcome": "A safety card instructing students to alert the teacher and avoid touching the substance.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2188,9 +2188,9 @@
         "topic": "Editing paragraphs about Oman-related texts",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on editing paragraphs about oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of editing paragraphs about oman-related texts through Round Robin Feedback?",
+        "prompt": "How can this paragraph become clearer and more coherent?",
         "procedure": "Present clear criteria for constructive feedback. Display a learner's product. Collect feedback from each peer in turn. Use the comments to revise the product.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of editing paragraphs about oman-related texts.",
+        "outcome": "A revised paragraph that responds to specific feedback.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2232,9 +2232,9 @@
         "topic": "Sequencing events in modern Omani history",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on sequencing events in modern omani history. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of sequencing events in modern omani history through Logical Line-Ups?",
+        "prompt": "How can we place the historical events studied in the correct order?",
         "procedure": "Present a set of unordered events, ideas, or objects. Identify the rule for arranging them. Negotiate and build a logical sequence. Test the order and justify any adjustments.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of sequencing events in modern omani history.",
+        "outcome": "A justified chronological timeline.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2276,9 +2276,9 @@
         "topic": "Project presentations",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on project presentations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of project presentations through Gallery Walk?",
-        "procedure": "Prepare several stations with student work or questions. Display work at each station. Groups circulate and leave constructive comments. Return to the original work and improve it.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of project presentations.",
+        "prompt": "How can we present ways of reducing waste and improving recycling?",
+        "procedure": "Groups display posters, visitors give specific criterion-based feedback, and each group revises its poster and explains a change.",
+        "outcome": "Revised group posters with specific peer feedback.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2320,9 +2320,9 @@
         "topic": "Understanding descriptions",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on understanding descriptions. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of understanding descriptions through Back to Back?",
+        "prompt": "How would you describe an image to someone who cannot see it?",
         "procedure": "Seat pairs back to back with different information. Explain the communication task. Partners describe and question without looking. Compare results and identify communication gaps.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of understanding descriptions.",
+        "outcome": "A clear, precise description another person can reconstruct.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2364,9 +2364,9 @@
         "topic": "Multiplication facts",
         "grade": "Grade 5",
         "context": "Illustrative Mathematics activity on multiplication facts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of multiplication facts through Quiz–Quiz–Trade?",
+        "prompt": "How can we practise multiplication facts accurately?",
         "procedure": "Give learners question-and-answer cards. Pair up with a partner. Ask each other the questions and check answers. Trade cards and find a new partner.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of multiplication facts.",
+        "outcome": "A set of correctly answered multiplication questions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2408,9 +2408,9 @@
         "topic": "Urban change in Omani cities",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on urban change in omani cities. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of urban change in omani cities through Observe and Roundtable Write?",
+        "prompt": "What changes can you observe between historical and contemporary images of an Omani city?",
         "procedure": "Show an image, demonstration, or object to observe. Allow silent observation and note taking. Pass a shared sheet for round-table writing. Compare records and draw conclusions.",
-        "outcome": "An individual explanation or product that demonstrates thinking and writing in the context of urban change in omani cities.",
+        "outcome": "A comparison chart distinguishing observable details from inferences.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2452,9 +2452,9 @@
         "topic": "Terms and definitions",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on terms and definitions. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of terms and definitions through Find Your Match?",
+        "prompt": "Which term matches each definition?",
         "procedure": "Prepare related pairs of concept cards. Distribute the cards randomly. Learners move and ask questions to find a match. Explain the relationship to confirm their pair.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of terms and definitions.",
+        "outcome": "Correct term–definition pairs with brief explanations.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2496,9 +2496,9 @@
         "topic": "The ecosystem",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on the ecosystem. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of the ecosystem through Concept Map?",
+        "prompt": "How do organisms interact with one another and non-living factors in an ecosystem?",
         "procedure": "Choose a central concept. Brainstorm related concepts. Draw labelled connections and hierarchies. Review links for scientific and logical accuracy.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of the ecosystem.",
+        "outcome": "A labelled concept map with correctly explained relationships.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2540,9 +2540,9 @@
         "topic": "Creative description",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on creative description. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of creative description through Guided Imagery?",
+        "prompt": "What does the setting described in the story look and feel like?",
         "procedure": "Prepare a calm and focused setting. Describe a scene using guided sensory prompts. Allow time for mental visualization. Invite sketches or explanations and compare perceptions.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of creative description.",
+        "outcome": "A drawing accompanied by descriptive sentences grounded in the text.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2584,9 +2584,9 @@
         "topic": "Energy",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on energy. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of energy through Frayer Model?",
+        "prompt": "How can we define energy and distinguish examples from non-examples?",
         "procedure": "Select a key term or concept. Prepare four Frayer Model boxes. Complete definition, attributes, examples, and non-examples. Discuss boundaries and revise misconceptions.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of energy.",
+        "outcome": "A completed Frayer model with a sound definition, features, examples and non-examples.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2628,9 +2628,9 @@
         "topic": "Understanding a literary scene",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on understanding a literary scene. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of understanding a literary scene through Mental Imagery?",
+        "prompt": "What image do the author's words help you imagine?",
         "procedure": "Read a vivid or information-rich passage. Pause so learners create mental images. Describe or sketch what was imagined. Check the mental image against details in the text.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of understanding a literary scene.",
+        "outcome": "A mental image or drawing connected to details in the passage.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2672,9 +2672,9 @@
         "topic": "Discussing personal interests",
         "grade": "Grade 5",
         "context": "Illustrative Life Skills activity on discussing personal interests. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of discussing personal interests through Clock Buddies?",
+        "prompt": "Which learning activity would you like to discuss with a new partner?",
         "procedure": "Make a clock template with partner slots. Learners schedule different partners at clock times. Call out a time for a specific pairing. Discuss the task and change partners for the next round.",
-        "outcome": "An individual explanation or product that demonstrates balanced participation in the context of discussing personal interests.",
+        "outcome": "A completed partner-clock schedule and discussion note.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2715,9 +2715,9 @@
         "topic": "Physical changes",
         "grade": "Grade 5",
         "context": "Illustrative Science activity on physical changes. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of physical changes through KWL Chart?",
+        "prompt": "What do you already know about changes of state, and what do you want to find out?",
         "procedure": "Record what learners already know. Collect questions about what they want to learn. Investigate the subject using suitable resources. Complete what was learned and revisit questions.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of physical changes.",
+        "outcome": "A KWL chart containing prior knowledge, questions and later learning.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2759,9 +2759,9 @@
         "topic": "Reading vocabulary in Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on reading vocabulary in oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reading vocabulary in oman-related texts through Survival Words?",
+        "prompt": "What does 'sustainability' mean in the context of protecting traditional aflaj water systems?",
         "procedure": "Choose important unfamiliar words. Let learners rate their prior knowledge. Discuss possible meanings using context. Read further and verify definitions.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of reading vocabulary in oman-related texts.",
+        "outcome": "A contextual explanation followed by correct use of the term in a new sentence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2803,9 +2803,9 @@
         "topic": "Global warming",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on global warming. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of global warming through Anticipation Guide?",
+        "prompt": "How does the natural greenhouse effect differ from additional warming driven by increased greenhouse gases?",
         "procedure": "Prepare statements about key ideas. Learners predict agreement before reading. Read to locate evidence. Compare predictions with what the text shows.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of global warming.",
+        "outcome": "A before-and-after reading table accurately distinguishing the natural effect from intensified warming.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2847,9 +2847,9 @@
         "topic": "Analyzing an informational text",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on analyzing an informational text. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of analyzing an informational text through Power Thinking?",
+        "prompt": "How can you tell the central idea from supporting details?",
         "procedure": "Explain hierarchical levels of an outline. Model one example of main and supporting ideas. Read and sort information into levels. Reconstruct an organized summary.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of analyzing an informational text.",
+        "outcome": "An annotated text and a concise summary that separates them.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2891,9 +2891,9 @@
         "topic": "Multi-level mathematics problems",
         "grade": "Grade 7",
         "context": "Illustrative Mathematics activity on multi-level mathematics problems. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of multi-level mathematics problems through Tiered Activities?",
+        "prompt": "How can learners solve the same problem with different levels of support?",
         "procedure": "Define one shared learning objective. Design tasks with varying levels of challenge or support. Assign tasks flexibly without fixed learner labels. Share work and assess against common criteria.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of multi-level mathematics problems.",
+        "outcome": "Differentiated products meeting the same learning objective and success criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2935,9 +2935,9 @@
         "topic": "Properties of materials",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on properties of materials. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of properties of materials through Concept Web?",
+        "prompt": "How are mass, volume and density related?",
         "procedure": "Read and select central ideas. Place the topic at the centre of a page. Add branches for linked concepts and details. Review the web with peers and revise connections.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of properties of materials.",
+        "outcome": "A concept web correctly showing density = mass / volume.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -2979,9 +2979,9 @@
         "topic": "Oman's aflaj irrigation systems in history",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on oman's aflaj irrigation systems in history. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of oman's aflaj irrigation systems in history through Easy Two-Column Notes?",
+        "prompt": "What did aflaj contribute to settlement, and what was their social significance?",
         "procedure": "Divide a note sheet into two columns. Read or listen to the source passage. Record information and personal interpretation separately. Compare notes and summarize key insights.",
-        "outcome": "An individual explanation or product that demonstrates thinking and writing in the context of oman's aflaj irrigation systems in history.",
+        "outcome": "Two-column notes separating factual information from its significance.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3023,9 +3023,9 @@
         "topic": "Renewable energy",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on renewable energy. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of renewable energy through Survey–Question–Read–Recite–Review?",
+        "prompt": "How can the SQ3R routine help you understand an article about solar energy?",
         "procedure": "Survey headings and important features of the text. Turn headings into questions. Read with the questions in mind. Recite key answers from memory and review the text.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of renewable energy.",
+        "outcome": "Reading notes showing the five SQ3R steps.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3067,9 +3067,9 @@
         "topic": "Immediate assessment",
         "grade": "Grade 5",
         "context": "Illustrative Mathematics activity on immediate assessment. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of immediate assessment through Marker Boards?",
+        "prompt": "What is 7 × 8?",
         "procedure": "Give each learner a small erasable board. Ask a short concept-check question. Everyone displays an answer simultaneously. Identify patterns and respond to errors.",
-        "outcome": "An individual explanation or product that demonstrates assessment and review in the context of immediate assessment.",
+        "outcome": "An accurate response of 56, with correction of any misconception.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3111,9 +3111,9 @@
         "topic": "Reading a short story",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on reading a short story. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reading a short story through Say Something?",
+        "prompt": "Which detail in this paragraph stood out to you, and why?",
         "procedure": "Divide the text into manageable sections. Read one short section. Stop to say a question, prediction, or observation. Alternate speakers and continue reading.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of reading a short story.",
+        "outcome": "Brief reading comments linked to specific details.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3155,9 +3155,9 @@
         "topic": "Environmental conservation projects",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on environmental conservation projects. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of environmental conservation projects through Think–Tac–Toe?",
+        "prompt": "Which product—poster, presentation or model—would best demonstrate your understanding?",
         "procedure": "Define the required learning outcomes. Create a three-by-three menu of varied tasks. Let learners select a valid route through the grid. Complete tasks and share evidence of learning.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of environmental conservation projects.",
+        "outcome": "A student-chosen product that meets the same success criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3199,9 +3199,9 @@
         "topic": "Creative writing about Oman-related texts",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on creative writing about oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of creative writing about oman-related texts through RAFTS Creative Writing?",
+        "prompt": "How would you write a letter about tolerance from a character's point of view?",
         "procedure": "Choose a role and perspective for the writer. Identify the intended audience and writing format. Specify the topic and purpose. Write, review, and refine the piece.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of creative writing about oman-related texts.",
+        "outcome": "A coherent creative letter showing the intended perspective and an example of tolerance.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3243,9 +3243,9 @@
         "topic": "Predicting events",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on predicting events. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of predicting events through Directed Reading Thinking Activity?",
+        "prompt": "What do you predict the character will do next, and what evidence supports your prediction?",
         "procedure": "Ask learners to predict what a text will explain. Read a short segment. Check predictions against the evidence. Repeat reading and reasoning before summarizing.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of predicting events.",
+        "outcome": "A prediction record revised using evidence from the text.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3287,9 +3287,9 @@
         "topic": "Reading an experiment",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on reading an experiment. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reading an experiment through Sticky Notes?",
+        "prompt": "What new observation or question arises from the description of this experiment?",
         "procedure": "Introduce a small set of sticky-note symbols. Read and mark significant passages. Explain why each note was placed. Discuss notes and revise interpretations.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of reading an experiment.",
+        "outcome": "Annotated text with notes categorised as observations, questions or inferences.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3331,9 +3331,9 @@
         "topic": "Reading an informational text",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on reading an informational text. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reading an informational text through Reciprocal Teaching?",
+        "prompt": "How can predicting, questioning, clarifying and summarising help you understand a difficult paragraph?",
         "procedure": "Model predicting, questioning, clarifying, and summarizing. Assign these four roles within a small group. Use the roles to guide discussion of a text. Rotate roles and repeat for the next section.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of reading an informational text.",
+        "outcome": "A group paragraph summary supported by all four comprehension roles.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3375,9 +3375,9 @@
         "topic": "Story elements in Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on story elements in oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of story elements in oman-related texts through Story Face?",
+        "prompt": "What are the opening, key events, conflict and resolution of this story?",
         "procedure": "Read or hear a short story. Introduce the story-face organizer. Record characters, setting, problem, and resolution. Retell the story using the organizer.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of story elements in oman-related texts.",
+        "outcome": "A correctly completed story organiser.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3419,9 +3419,9 @@
         "topic": "Cause-and-effect relationships",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on cause-and-effect relationships. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of cause-and-effect relationships through Graphic Organizers for Reading?",
+        "prompt": "What caused the historical event, and what were its consequences?",
         "procedure": "Identify the structure of the text. Choose an appropriate graphic organizer. Extract and arrange important information. Discuss how the organizer clarifies meaning.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of cause-and-effect relationships.",
+        "outcome": "An evidence-supported graphic organiser distinguishing causes from effects.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3463,9 +3463,9 @@
         "topic": "Discussing the author's intent",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on discussing the author's intent. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of discussing the author's intent through Questioning the Author?",
+        "prompt": "Why might the author have included this information here?",
         "procedure": "Select an unclear or important passage. Ask what the author is trying to communicate. Discuss whether the explanation is clear and well-supported. Rewrite the passage in clearer language.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of discussing the author's intent.",
+        "outcome": "A critical discussion supported by details from the text.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3507,9 +3507,9 @@
         "topic": "Story writing based on Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on story writing based on oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of story writing based on oman-related texts through Word Splash / Tell Me a Story?",
+        "prompt": "How can you build a connected story from the words sea, letter and honesty?",
         "procedure": "Select important words from a forthcoming passage. Display the words without their original order. Learners invent a coherent story using the words. Compare stories with the actual passage.",
-        "outcome": "An individual explanation or product that demonstrates creativity and imagination in the context of story writing based on oman-related texts.",
+        "outcome": "A coherent short story that uses all three words meaningfully.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3551,9 +3551,9 @@
         "topic": "Distinguishing concepts",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on distinguishing concepts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of distinguishing concepts through Semantic Feature Analysis?",
+        "prompt": "Which characteristics distinguish mammals from birds and fish?",
         "procedure": "Select concepts to compare. Build a feature matrix with relevant attributes. Mark the presence or absence of each feature. Discuss distinctions and test category boundaries.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of distinguishing concepts.",
+        "outcome": "An accurately labelled comparison matrix, with exceptions handled carefully.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3595,9 +3595,9 @@
         "topic": "Natural environments",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on natural environments. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of natural environments through List–Group–Label?",
+        "prompt": "How could words about deserts, plains and mountains be grouped and named?",
         "procedure": "Brainstorm a list of related terms. Group terms according to common properties. Assign a meaningful label to each group. Defend and refine the classifications.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of natural environments.",
+        "outcome": "Meaningfully labelled groups of related vocabulary.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3639,9 +3639,9 @@
         "topic": "Climate",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on climate. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of climate through Listen–Read–Discuss?",
+        "prompt": "How does the summer monsoon influence Dhofar's climate compared with other parts of Oman?",
         "procedure": "Listen to a short introduction or explanation. Read a related text independently. Compare spoken and written information. Discuss and clarify understanding.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of climate.",
+        "outcome": "A summary comparing evidence from listening and reading sources.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3683,9 +3683,9 @@
         "topic": "Types of questions in Oman-related texts",
         "grade": "Grade 8",
         "context": "Illustrative Arabic Language activity on types of questions in oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of types of questions in oman-related texts through Question–Answer Relationships?",
+        "prompt": "Which questions can be answered directly from the text, and which need inference?",
         "procedure": "Introduce different relationships between questions and answers. Read the source text closely. Classify and answer questions using the appropriate evidence. Write an original question of each type.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of types of questions in oman-related texts.",
+        "outcome": "A correctly classified question-and-answer table.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3727,9 +3727,9 @@
         "topic": "Classifying organisms",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on classifying organisms. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of classifying organisms through Concept Sort?",
+        "prompt": "Which concepts belong under vertebrates and which under invertebrates?",
         "procedure": "Prepare cards showing concepts, examples, or features. Explain the sorting rules or allow discovery. Sort cards and justify the groupings. Change the rule and sort again to reveal new relationships.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of classifying organisms.",
+        "outcome": "A justified concept-sorting chart.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3771,9 +3771,9 @@
         "topic": "Vocabulary in context",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on vocabulary in context. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of vocabulary in context through Cloze?",
+        "prompt": "Which word best completes this gap in context, and why?",
         "procedure": "Choose a passage containing target concepts. Remove selected key words. Read and infer the missing terms from context. Check and explain the choices.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of vocabulary in context.",
+        "outcome": "A completed text with context-based explanations.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3815,9 +3815,9 @@
         "topic": "Note taking",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on note taking. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of note taking through Rock around the Clock Notes?",
+        "prompt": "How can you record the reasons for a historical event while listening to an explanation?",
         "procedure": "Identify the problem or learning focus. Read or listen actively. Organize notes into a clock-like layout. Review the notes with a partner and clarify gaps.",
-        "outcome": "An individual explanation or product that demonstrates thinking and writing in the context of note taking.",
+        "outcome": "Organised notes that distinguish reasons from examples and detail.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3859,9 +3859,9 @@
         "topic": "Developing ideas from Oman-related texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on developing ideas from oman-related texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of developing ideas from oman-related texts through Clustering?",
+        "prompt": "Which words are linked to citizenship, and how can they be grouped?",
         "procedure": "Write a key concept at the centre. Generate connected words or ideas freely. Group related ideas into clusters. Use the resulting clusters to organize writing or reasoning.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of developing ideas from oman-related texts.",
+        "outcome": "A clearly labelled semantic cluster diagram.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3903,9 +3903,9 @@
         "topic": "Climate change",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on climate change. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of climate change through Cause and Effect?",
-        "procedure": "Identify an event, change, or phenomenon. Find possible causes. Link causes to their likely effects. Test the proposed relationships with evidence.",
-        "outcome": "An individual explanation or product that demonstrates critical thinking in the context of climate change.",
+        "prompt": "Which factors contribute to rising global temperatures, and what effects can follow?",
+        "procedure": "Learners identify human-driven increases in greenhouse gases and use credible evidence to distinguish causes from effects.",
+        "outcome": "A cause-and-effect diagram with scientifically accurate links and a distinction between causes and consequences.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3947,9 +3947,9 @@
         "topic": "Comparing forms of energy",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on comparing forms of energy. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of comparing forms of energy through Venn Diagram?",
+        "prompt": "What similarities and differences are there between solar and wind energy?",
         "procedure": "Choose two topics or concepts to compare. Draw two overlapping circles. Place similarities and differences in appropriate areas. Explain what the comparison reveals.",
-        "outcome": "An individual explanation or product that demonstrates knowledge organization in the context of comparing forms of energy.",
+        "outcome": "An accurately labelled Venn diagram.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -3991,9 +3991,9 @@
         "topic": "Checking predictions",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on checking predictions. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of checking predictions through Reading Anticipation Guide?",
+        "prompt": "How did your predictions change after reading about the differences between weather and climate?",
         "procedure": "Give learners statements to anticipate the reading. Record initial agreement or disagreement. Read to find supporting or conflicting evidence. Revisit and justify the initial views.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of checking predictions.",
+        "outcome": "A before-and-after opinion table citing textual evidence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4035,16 +4035,16 @@
         "topic": "Engaging with a text",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on engaging with a text. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of engaging with a text through Active Reader?",
+        "prompt": "How can you question, infer and annotate while reading?",
         "procedure": "Set a purpose for reading. Annotate, question, and interact with the text. Pause to check understanding. Discuss interpretations and evidence.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of engaging with a text.",
+        "outcome": "An annotated text with purposeful reader questions and inferences.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
   },
   "93": {
-    "name": "Request",
-    "summary": "Request is a structured approach to reading comprehension. Its 4 steps move from “read a section of a text” to “exchange and answer questions”.",
+    "name": "ReQuest (Reciprocal Questioning)",
+    "summary": "ReQuest develops reading comprehension through reciprocal questions: the teacher models thoughtful questions, and teacher and learners or learning partners take turns asking and answering with textual evidence.",
     "goal": "Reading Comprehension",
     "tools": [
       "Text (as needed)",
@@ -4079,9 +4079,9 @@
         "topic": "Reading in pairs",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on reading in pairs. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reading in pairs through Request?",
+        "prompt": "What thoughtful question could you ask a partner after reading a paragraph about friendship?",
         "procedure": "Read a section of a text. Create questions from memory. Return to the text to verify and improve questions. Exchange and answer questions with a peer.",
-        "outcome": "An individual explanation or product that demonstrates reading comprehension in the context of reading in pairs.",
+        "outcome": "A set of reciprocal questions and evidence-supported answers.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4123,9 +4123,9 @@
         "topic": "Written communication",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on written communication. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of written communication through Written Conversation?",
+        "prompt": "How can classmates discuss tolerance through writing rather than speech?",
         "procedure": "Read a short text or problem. Write the first response on paper. Exchange written replies without speaking. Read the entire written dialogue and discuss conclusions.",
-        "outcome": "An individual explanation or product that demonstrates thinking and writing in the context of written communication.",
+        "outcome": "A coherent written dialogue that responds to previous messages.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4167,9 +4167,9 @@
         "topic": "Summarizing informational texts",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on summarizing informational texts. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of summarizing informational texts through Summarizing Based on Rules?",
+        "prompt": "Which unnecessary details can be omitted when summarising a passage about plants?",
         "procedure": "Explain concise rules for accurate summarization. Model deleting repetition and unimportant details. Write the central idea in your own words. Check the summary against the original source.",
-        "outcome": "An individual explanation or product that demonstrates summarization in the context of summarizing informational texts.",
+        "outcome": "A concise summary retaining key meaning without unsupported detail.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4211,9 +4211,9 @@
         "topic": "Nizwa in Omani history",
         "grade": "Grade 8",
         "context": "Illustrative Social Studies activity on nizwa in omani history. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of nizwa in omani history through Group Summarizing?",
+        "prompt": "How can a group summarise a lesson about Nizwa's cultural history?",
         "procedure": "Divide the text into manageable sections. Assign sections to separate groups. Each group summarizes its portion. Combine the summaries and present a coherent whole.",
-        "outcome": "An individual explanation or product that demonstrates summarization in the context of nizwa in omani history.",
+        "outcome": "A well-structured collaborative summary of the lesson's themes.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4255,9 +4255,9 @@
         "topic": "Reviewing the energy unit",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on reviewing the energy unit. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of reviewing the energy unit through Cooperative Summarizing?",
+        "prompt": "How can the group agree on a concise and accurate summary of the energy unit?",
         "procedure": "Read and summarize a passage individually. Compare summaries with a partner. Negotiate one precise shared version. Check the final summary for accuracy and omissions.",
-        "outcome": "An individual explanation or product that demonstrates summarization in the context of reviewing the energy unit.",
+        "outcome": "An edited group summary with the important scientific ideas retained.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4299,9 +4299,9 @@
         "topic": "Identifying key words",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on identifying key words. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of identifying key words through Magnet Summaries?",
+        "prompt": "Which keywords carry the most important meaning in the passage?",
         "procedure": "Identify a few magnetic key words in the passage. Collect details connected to those words. Combine the key words and details into sentences. Write and refine a concise summary.",
-        "outcome": "An individual explanation or product that demonstrates summarization in the context of identifying key words.",
+        "outcome": "A short summary organised around relevant keywords.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4343,9 +4343,9 @@
         "topic": "Main idea of a paragraph",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on main idea of a paragraph. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of main idea of a paragraph through GIST Summaries?",
+        "prompt": "What is the main idea that must not be lost in this passage?",
         "procedure": "Divide a text into short sections. Read a section with a partner. Summarize each section in no more than twenty words. Combine the brief summaries and revise.",
-        "outcome": "An individual explanation or product that demonstrates summarization in the context of main idea of a paragraph.",
+        "outcome": "A concise GIST summary that conveys the passage's central point.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4387,9 +4387,9 @@
         "topic": "Discussion and exchanging views",
         "grade": "Grade 6",
         "context": "Illustrative Arabic Language activity on discussion and exchanging views. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of discussion and exchanging views through Seasonal Partners?",
+        "prompt": "How does exchanging ideas with different partners influence your thinking?",
         "procedure": "Create a partner chart with four seasons. Learners choose partners for each season. Call a season to select the current partners. Discuss the task and switch seasons as needed.",
-        "outcome": "An individual explanation or product that demonstrates discussion and communication in the context of discussion and exchanging views.",
+        "outcome": "Four short discussion summaries that note how ideas developed.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4431,9 +4431,9 @@
         "topic": "Sustainability project",
         "grade": "Grade 11",
         "context": "Illustrative Environmental Science activity on sustainability project. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of sustainability project through Menus?",
+        "prompt": "How can your choice of learning product show understanding of sustainability?",
         "procedure": "Define core and optional learning outcomes. Offer a menu of required and choice tasks. Learners choose and complete suitable tasks. Share products and assess the learning.",
-        "outcome": "An individual explanation or product that demonstrates cooperative learning in the context of sustainability project.",
+        "outcome": "A chosen learning product meeting shared, clearly specified success criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4475,9 +4475,9 @@
         "topic": "Water",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on water. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of water through Argument-Driven Inquiry?",
-        "procedure": "Pose a scientifically testable research question. Collect and organize empirical evidence. Present and challenge evidence-based arguments. Revise a written claim using the discussion.",
-        "outcome": "An individual explanation or product that demonstrates scientific argumentation and inquiry in the context of water.",
+        "prompt": "Does the surface area of water affect its evaporation rate when other conditions are kept as constant as possible?",
+        "procedure": "Compare measured or supplied data for water samples with different exposed surface areas, keeping water quantity, temperature, airflow and humidity as constant as possible; discuss limitations.",
+        "outcome": "A scientific argument supported by controlled observations or data.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4519,9 +4519,9 @@
         "topic": "Energy",
         "grade": "Grade 9",
         "context": "Illustrative Science activity on energy. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of energy through Peer Instruction?",
+        "prompt": "Is electrical energy destroyed inside a light bulb, or transformed into light and thermal energy?",
         "procedure": "Present a carefully designed conceptual multiple-choice question. Collect an individual first vote without discussion. Ask peers to justify and challenge their choices. Vote again and explain any shift in understanding.",
-        "outcome": "An individual explanation or product that demonstrates conceptual change in the context of energy.",
+        "outcome": "An explanation of energy conservation and transformation to light and heat, supported by a reason.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4563,9 +4563,9 @@
         "topic": "Genetics",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on genetics. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of genetics through Just-in-Time Teaching?",
+        "prompt": "Why do children resemble their parents without being genetically identical to them?",
         "procedure": "Assign a short online or paper task before class. Review responses to locate misconceptions. Adjust the lesson immediately to address those needs. Use active classroom tasks and feedback to check improvement.",
-        "outcome": "An individual explanation or product that demonstrates instruction informed by prior assessment in the context of genetics.",
+        "outcome": "A lesson adjustment plan built from students' prior responses, not a fixed answer key.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4607,9 +4607,9 @@
         "topic": "Molar concentration",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on molar concentration. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of molar concentration through Faded Worked Examples?",
-        "procedure": "Model the full solution to a representative problem. Gradually remove worked steps in later examples. Have learners complete missing steps and explain their reasoning. Finish with a similar problem solved independently.",
-        "outcome": "An individual explanation or product that demonstrates progressive independence in the context of molar concentration.",
+        "prompt": "How do you calculate the molarity of a solution from moles of solute and litres of solution?",
+        "procedure": "Model M = n/V using the amount of solute in moles and solution volume in litres; progressively fade worked steps.",
+        "outcome": "An independent calculation that uses mol/L correctly and explains the steps.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4651,9 +4651,9 @@
         "topic": "The cell",
         "grade": "Grade 8",
         "context": "Illustrative Science activity on the cell. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of the cell through Spaced Retrieval Practice?",
+        "prompt": "What functions do the cell organelles studied last week perform?",
         "procedure": "Ask a brief retrieval question without notes. Give accurate corrective feedback. Revisit the content after increasing time intervals. Apply retrieval in a new context.",
-        "outcome": "An individual explanation or product that demonstrates long-term retention in the context of the cell.",
+        "outcome": "Accurate recall and application of organelle functions after a delay.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4695,9 +4695,9 @@
         "topic": "Environmental adaptation",
         "grade": "Grade 9",
         "context": "Illustrative Science activity on environmental adaptation. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of environmental adaptation through Contrasting Cases?",
+        "prompt": "Why might plants of the same species grow differently in two environments?",
         "procedure": "Present two intentionally contrasting cases. Ask learners to notice similarities and important differences. Derive the rule that explains the contrast. Test the rule against a third example.",
-        "outcome": "An individual explanation or product that demonstrates identifying distinguishing features in the context of environmental adaptation.",
+        "outcome": "An evidence-based explanation that can be tested against a new example.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4739,9 +4739,9 @@
         "topic": "Ecosystems",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on ecosystems. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of ecosystems through Model-Based Inquiry?",
+        "prompt": "How might reducing a predator population affect the relationships in a food web?",
         "procedure": "Ask learners to construct an initial explanatory model. Use the model to generate a prediction. Test predictions against observations or data. Revise the model to better account for evidence.",
-        "outcome": "An individual explanation or product that demonstrates scientific modelling and explanation in the context of ecosystems.",
+        "outcome": "A first and revised model, with evidence explaining each change.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4783,9 +4783,9 @@
         "topic": "Pressure",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on pressure. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of pressure through Prompted Self-Explanation?",
-        "procedure": "Present a worked example or short explanation. Pause at key decisions and ask why they were made. Learners write their own explanation of each choice. Check explanations against evidence and apply in a new task.",
-        "outcome": "An individual explanation or product that demonstrates explaining reasoning and decisions in the context of pressure.",
+        "prompt": "Why does pressure in a stationary liquid increase with depth?",
+        "procedure": "Students explain the difference in hydrostatic pressure using ΔP = ρgΔh and the influence of liquid density.",
+        "outcome": "An explanation connecting depth, liquid density and gravitational acceleration to pressure change.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4827,9 +4827,9 @@
         "topic": "Scientific research",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on scientific research. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of scientific research through Plan–Monitor–Evaluate?",
+        "prompt": "How could you plan, monitor and evaluate a report on climate change?",
         "procedure": "Set a specific goal and choose an approach before starting. Monitor progress and note when difficulties arise. Adjust methods or seek evidence as needed. Evaluate the outcome and record what to improve next time.",
-        "outcome": "An individual explanation or product that demonstrates self-regulation and metacognition in the context of scientific research.",
+        "outcome": "A plan with documented checkpoints, revisions and a self-evaluation.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4871,9 +4871,9 @@
         "topic": "Water conservation",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on water conservation. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of water conservation through Engineering Design Challenge?",
+        "prompt": "How can you design and improve a simple water-saving model using limited materials?",
         "procedure": "Define a real-world design problem and clear constraints. Generate several possible solutions. Build and test a simple prototype against criteria. Use the results to improve and justify the design.",
-        "outcome": "An individual explanation or product that demonstrates design, testing and improvement in the context of water conservation.",
+        "outcome": "A prototype revised in response to test results and design criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4915,9 +4915,9 @@
         "topic": "Dissolving",
         "grade": "Grade 7",
         "context": "Illustrative Science activity on dissolving. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of dissolving through Predict–Observe–Explain?",
-        "procedure": "Ask for a reasoned prediction before a demonstration. Observe the event systematically and record data. Compare the observation with the original prediction. Explain any mismatch using scientific evidence.",
-        "outcome": "An individual explanation or product that demonstrates evidence-based conceptual change in the context of dissolving.",
+        "prompt": "How can we compare two substances' dissolving rates while controlling water temperature, stirring, particle size and quantities?",
+        "procedure": "Learners make predictions, use a teacher-approved safe comparison with key variables controlled, record observations and state limitations.",
+        "outcome": "A revised explanation based on observations from a fair comparison.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -4959,9 +4959,9 @@
         "topic": "Waste",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on waste. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of waste through Problem-Based Learning?",
+        "prompt": "How could our school reduce waste from everyday materials?",
         "procedure": "Present an authentic and open-ended problem. Identify what is already known and what needs investigation. Research, discuss, and assess possible approaches. Propose and defend a solution using evidence.",
-        "outcome": "An individual explanation or product that demonstrates open-ended problem inquiry in the context of waste.",
+        "outcome": "An evidence-supported proposal with clear limitations and success criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5003,9 +5003,9 @@
         "topic": "Biodiversity",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on biodiversity. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of biodiversity through Team-Based Learning?",
+        "prompt": "Which conservation action should be prioritised for a natural habitat under a limited budget?",
         "procedure": "Provide preparatory reading or materials before class. Run an individual readiness assurance test. Repeat the same test in permanent teams and discuss answers. Apply concepts to a significant problem requiring one team decision.",
-        "outcome": "An individual explanation or product that demonstrates individual accountability and team decisions in the context of biodiversity.",
+        "outcome": "A justified team decision accompanied by evidence of individual understanding.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5047,9 +5047,9 @@
         "topic": "Sustainability",
         "grade": "Grade 9",
         "context": "Illustrative Science activity on sustainability. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of sustainability through Question Formulation Technique?",
+        "prompt": "Our city uses more resources each year.",
         "procedure": "Present a prompt that is not already a question. Generate many questions without judging or answering them. Improve and prioritize the questions. Use the selected questions for inquiry and reflect on the process.",
-        "outcome": "An individual explanation or product that demonstrates student question formulation in the context of sustainability.",
+        "outcome": "A prioritised and refined list of investigable questions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5091,9 +5091,9 @@
         "topic": "Photosynthesis",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on photosynthesis. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of photosynthesis through Active Flipped Classroom?",
-        "procedure": "Provide a brief accessible introduction before the lesson. Check preparation with a short diagnostic task. Spend class time on active collaborative application. Use feedback to address remaining learning gaps.",
-        "outcome": "An individual explanation or product that demonstrates active in-class application in the context of photosynthesis.",
+        "prompt": "How do light, water and carbon dioxide relate to the products of photosynthesis?",
+        "procedure": "Learners interpret how light energy enables plants to use water and carbon dioxide to build sugars, releasing oxygen.",
+        "outcome": "An explanation linking inputs, light energy, sugars and released oxygen.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5135,9 +5135,9 @@
         "topic": "Equations",
         "grade": "Grade 9",
         "context": "Illustrative Science activity on equations. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of equations through Interleaved Practice?",
+        "prompt": "How do you choose the correct formula for questions about speed, density and pressure?",
         "procedure": "Teach several related problem types. Mix those types in one practice sequence. Require learners to explain which method fits each problem. Review mistakes and repeat with a different mix.",
-        "outcome": "An individual explanation or product that demonstrates choosing methods for mixed problems in the context of equations.",
+        "outcome": "Independent choice of the appropriate relationship and a justified solution.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5179,9 +5179,9 @@
         "topic": "Genetics",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on genetics. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of genetics through Two-Stage Collaborative Testing?",
+        "prompt": "How can you predict a simple inheritance outcome using a genetic diagram?",
         "procedure": "Let learners complete an assessment independently. Repeat selected questions in small groups. Agree on one response supported by discussion. Check individual understanding afterwards.",
-        "outcome": "An individual explanation or product that demonstrates learning through testing and reasoning in the context of genetics.",
+        "outcome": "An individual explanation of a probability model and its assumptions.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5223,9 +5223,9 @@
         "topic": "Renewable energy",
         "grade": "Grade 11",
         "context": "Illustrative Science activity on renewable energy. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of renewable energy through Structured Academic Controversy?",
+        "prompt": "Which criteria should guide our comparison of renewable-energy options for a city?",
         "procedure": "Assign contrasting positions and prepare evidence. Each side presents while the other listens and summarizes. Switch sides to argue the opposing view. Construct a shared conclusion integrating the strongest arguments.",
-        "outcome": "An individual explanation or product that demonstrates evaluating opposing arguments in the context of renewable energy.",
+        "outcome": "A balanced decision stating evidence, trade-offs and limitations.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5267,9 +5267,9 @@
         "topic": "Matter",
         "grade": "Grade 8",
         "context": "Illustrative Science activity on matter. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of matter through Mastery Learning?",
+        "prompt": "How can every learner demonstrate mastery of physical and chemical changes after targeted support?",
         "procedure": "Define explicit performance criteria before teaching. Teach and provide purposeful practice. Check learning with formative assessment. Provide targeted support or extension before reassessment.",
-        "outcome": "An individual explanation or product that demonstrates mastery with targeted support in the context of matter.",
+        "outcome": "A post-support demonstration of the stated learning objective against explicit criteria.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5311,9 +5311,9 @@
         "topic": "Biodiversity",
         "grade": "Grade 10",
         "context": "Illustrative Science activity on biodiversity. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of biodiversity through Knowledge Building Community?",
+        "prompt": "How might changes in feeding relationships affect the stability of an ecosystem?",
         "procedure": "Agree on an authentic shared knowledge question. Publish initial ideas in a common workspace. Investigate evidence and build on others' explanations. Produce an improved shared knowledge artifact.",
-        "outcome": "An individual explanation or product that demonstrates collaborative knowledge improvement in the context of biodiversity.",
+        "outcome": "A revised shared explanation supported by a record of new evidence.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }
@@ -5355,9 +5355,9 @@
         "topic": "Weather and climate",
         "grade": "Grade 9",
         "context": "Illustrative Science activity on weather and climate. This is an adaptation, not an official textbook excerpt.",
-        "prompt": "How can learners demonstrate their understanding of weather and climate through Refutational Text Learning?",
+        "prompt": "Does a single cold day show that the long-term climate has become cooler?",
         "procedure": "Elicit an initial misconception or alternative explanation. Read a short text that refutes the misconception with evidence. Explain why the evidence supports the scientific view. Apply the revised concept to a new situation.",
-        "outcome": "An individual explanation or product that demonstrates addressing misconceptions using evidence in the context of weather and climate.",
+        "outcome": "An evidence-based explanation distinguishing one day's weather from long-term climate.",
         "curriculum": "Illustrative classroom example; verify the lesson title in the official textbook."
       }
     }

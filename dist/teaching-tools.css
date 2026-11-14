@@ -1,0 +1,37 @@
+/* New teacher-assistance panels; preserves original visual identity and dark mode. */
+.decision-guide,.assessment-card{border:1px solid var(--line-strong,#bad6d3);background:var(--paper,#fff);color:var(--ink,#173a3f);border-radius:22px;padding:clamp(16px,2.7vw,28px);box-shadow:0 9px 24px rgba(6,74,79,.06);margin:20px 0}
+.decision-guide-heading,.assessment-title-row{display:flex;gap:16px;align-items:center;justify-content:space-between}
+.decision-guide-heading h3,.assessment-title-row h3{margin:4px 0 8px;font-size:clamp(20px,2.4vw,26px);color:var(--ink,#174a50)}
+.decision-guide-heading p,.assessment-title-row p{margin:0;color:var(--muted,#5b7074);line-height:1.7}
+.decision-guide-icon,.assessment-symbol{display:grid;place-items:center;width:58px;height:58px;flex:none;border-radius:18px;background:linear-gradient(120deg,#096770,#31b59e);color:white;font-size:34px}
+.decision-guide-inputs{display:grid;grid-template-columns:2fr 1fr 1fr auto;gap:10px;align-items:end;margin-top:19px}
+.decision-guide-inputs label,.assessment-note-label{display:grid;gap:6px;color:var(--ink);font-weight:700;line-height:1.5}
+.decision-guide-inputs select,.assessment-criterion select,.assessment-note-label textarea{width:100%;min-width:0;min-height:44px;padding:9px 12px;border:1px solid var(--line-strong,#b7cbce);border-radius:12px;color:var(--ink);background:var(--paper);font:inherit}
+.decision-guide-inputs button{min-height:44px;white-space:nowrap}
+.decision-guide-results{margin-top:12px}
+.decision-guide-hint,.decision-guide-summary,.decision-guide-footnote,.decision-guide-note,.assessment-privacy{color:var(--muted);line-height:1.7}
+.decision-guide-summary{font-weight:700;margin:8px 0 13px}
+.decision-guide-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.decision-guide-card{display:flex;flex-direction:column;align-items:flex-start;gap:6px;background:var(--bg-soft,#f3faf7);border:1px solid var(--line);border-radius:14px;padding:15px}
+.decision-guide-card h4{margin:0;font-size:18px;color:var(--ink)}
+.decision-guide-card p{margin:0;line-height:1.7;font-size:14px}
+.decision-guide-description{flex:1}
+.decision-guide-meta{font-weight:700;color:var(--primary,#006970)}
+.decision-guide-open{display:inline-block;text-decoration:none!important;margin-top:5px;color:var(--primary,#087076);font-weight:800;border-bottom:1px solid currentColor}
+.decision-guide-open:hover,.decision-guide-open:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
+.decision-guide-footnote{font-size:13px;margin:13px 0 0}
+.assessment-eyebrow{font-weight:800;color:var(--primary,#086d71);font-size:13px}
+.assessment-criteria{display:grid;gap:10px;margin:16px 0}
+.assessment-criterion{display:grid;grid-template-columns:minmax(0,1fr) minmax(145px,190px);align-items:center;gap:12px;background:var(--bg-soft,#f4f9f7);border:1px solid var(--line);border-radius:12px;padding:11px 14px;line-height:1.7}
+.assessment-criterion span{font-weight:650}
+.assessment-note-label textarea{resize:vertical;min-height:68px}
+.assessment-card-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
+.assessment-status{margin:12px 0 4px;font-weight:700;color:var(--primary,#086b69)}
+.assessment-privacy{font-size:12px;margin:7px 0 0}
+body.dark .decision-guide,body.dark .assessment-card{background:var(--paper,#14363b);border-color:var(--line,#547678)}
+body.dark .decision-guide-card,body.dark .assessment-criterion{background:#18434a;border-color:#537479}
+body.dark .decision-guide-inputs select,body.dark .assessment-criterion select,body.dark .assessment-note-label textarea{background:#173d44;color:#f3fcfa;border-color:#638a8d}
+body.dark .decision-guide-open,body.dark .assessment-status{color:#87f1cf}
+@media(max-width:850px){.decision-guide-inputs{grid-template-columns:repeat(2,minmax(0,1fr))}.decision-guide-inputs button{width:100%}}
+@media(max-width:560px){.decision-guide-inputs,.decision-guide-cards{grid-template-columns:1fr}.assessment-criterion{grid-template-columns:1fr}.decision-guide-icon,.assessment-symbol{width:42px;height:42px;font-size:26px}.assessment-card-actions>.btn{flex:1 1 100%}}
+@media(prefers-reduced-motion:reduce){.decision-guide-open,.assessment-card *{scroll-behavior:auto}}

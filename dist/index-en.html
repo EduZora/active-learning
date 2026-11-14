@@ -40,17 +40,26 @@
 <script defer="" src="v63-data.js"></script>
 <script defer="" src="english-strategies.js"></script>
 <script defer="" src="english-content-polish.js"></script>
+  <script defer src="pedagogy-review.js"></script>
 <script defer="" src="v63.js"></script>
 <script defer="" src="new-visuals.js"></script>
 <script defer="" src="english-diagrams.js"></script>
+<script defer src="vendor/qrcode.min.js"></script>
+<script defer src="qr-code.js"></script>
+<script defer="" src="teaching-tools.js"></script>
 <script defer="" src="app.js"></script>
+  <script defer src="search-directory.js"></script>
+  <script defer src="strategy-advisor.js"></script>
 <script defer="" src="oman-lesson-planner.js"></script>
 <script defer="" src="feature.js"></script>
 <script defer="" src="v64.js"></script>
 <script defer="" src="english-ui-map.js"></script>
 <script defer="" src="language-ui.js"></script>
 <link href="english.css" rel="stylesheet"/>
-<link rel="stylesheet" href="design-refinement.css" /></head>
+<link rel="stylesheet" href="design-refinement.css" />
+<link rel="stylesheet" href="strategy-directory.css" />
+<link rel="stylesheet" href="teaching-tools.css" />
+</head>
 <body><div aria-live="polite" class="sr-only" id="globalAnnouncements" role="status"></div>
 <a class="skip" href="#strategyGrid">Skip to strategies</a>
 <header class="topbar">
@@ -102,6 +111,7 @@
 <div class="name-finder-controls">
 <label class="sr-only" for="quickNameSearch">Strategy name</label>
 <input aria-autocomplete="list" aria-controls="nameSuggestions" aria-expanded="false" aria-label="Quick search by strategy name" autocomplete="off" id="quickNameSearch" inputmode="search" placeholder="Search: Fishbowl, Jigsaw, Think–Pair–Share…" type="search"/>
+<button id="toggleQuickList" type="button" class="quick-directory-trigger" aria-controls="nameSuggestions" aria-label="Show all strategies" title="Show all strategies">▾</button>
 <button aria-label="Clear name search" hidden="" id="clearQuickName" title="Clear name search" type="button">✕</button>
 <div aria-label="Strategy name search results" class="name-suggestions" hidden="" id="nameSuggestions"></div>
 </div>
@@ -122,7 +132,7 @@
 <div class="credits-identity-heading"><span class="credits-eyebrow">Prepared by</span><h2 class="project-credit-label">Biology Unit — Al Buraimi Directorate of Education</h2></div>
 </div>
 <div class="credits-team">
-<span class="project-preparation-heading">Prepared by</span>
+
 <div aria-label="Authors" class="project-preparer-names">
 <span class="ruqaa-name">Dr. Sumayya bint Salim bin Mohammed Al Nuaimi</span>
 <span class="ruqaa-name">Mr. Mohammed Sayed Abdel Sattar Salim</span>
@@ -133,9 +143,14 @@
 <section aria-labelledby="catalogTitle" class="catalog container">
 <div class="catalog-overline"><span>THE ACTIVE LEARNING LIBRARY</span><span>01—122</span></div>
 <div class="section-head"><div><span class="eyebrow">Strategy Library</span><h2 id="catalogTitle">Your Guide to Teaching Strategies</h2><p>Browse practical guidance, classroom steps, visual diagrams, assessment ideas, and teaching adaptations.</p></div><div aria-label="Strategy display options" class="tabs" role="group"><button aria-pressed="true" class="tab active" id="allTab" type="button">All Strategies</button><button aria-pressed="false" class="tab" id="favTab" type="button">♡ My Favorites <span id="favTabCount">0</span></button></div></div>
-<p class="stages-note" role="note"><strong>Note:</strong> All strategies can be adapted for different grades. Grade bands (1–4, 4–8, 9–12) are suggestions rather than restrictions.</p>
-<div class="filters"><label class="search-field"><span aria-hidden="true">⌕</span><input aria-label="Search all strategy content" id="searchInput" placeholder="Search by name, skill, concept or example…" type="search"/></label><label><span class="sr-only">Learning Objective</span><select id="goalFilter"><option value="">All Objectives</option></select></label><label><span class="sr-only">Strategy Type</span><select id="categoryFilter"><option value="">All Categories</option></select></label><label><span class="sr-only">Duration</span><select id="timeFilter"><option value="">All Durations</option><option value="short">Up to 10 minutes</option><option value="medium">11–20 minutes</option><option value="long">More than 20 minutes</option></select></label><label><span class="sr-only">Suggested Grades</span><select id="stageFilter"><option value="">All Grades</option><option value="1-4">1–4</option><option value="4-8">4–8</option><option value="9-12">9–12</option></select></label><button class="reset-btn" id="resetBtn" type="button">Clear Filters</button></div>
-<div aria-label="Suggested grade ranges" class="filter-shortcuts"><span>Suggested grades:</span><button aria-pressed="true" class="stage-pill active" data-stage-chip="" type="button">All</button><button aria-pressed="false" class="stage-pill" data-stage-chip="1-4" type="button">1–4</button><button aria-pressed="false" class="stage-pill" data-stage-chip="4-8" type="button">4–8</button><button aria-pressed="false" class="stage-pill" data-stage-chip="9-12" type="button">9–12</button></div>
+<p class="stages-note" role="note"><strong>Note:</strong> All strategies can be adapted for different grades. Grade bands (1–4, 5–8, 9–12) are suggestions rather than restrictions.</p>
+<div class="filters"><div class="search-field directory-search"><span aria-hidden="true">⌕</span><input aria-label="Search all strategy content" id="searchInput" placeholder="Search by name, skill, concept or example…" type="search"/><button type="button" class="directory-toggle" id="strategyDirectoryToggle" aria-controls="strategyDirectory" aria-expanded="false" aria-label="Show all strategies" title="Show all strategies">▾</button><div id="strategyDirectory" class="strategy-directory" role="listbox" aria-label="Strategy directory" hidden></div></div><label><span class="sr-only">Learning Objective</span><select id="goalFilter"><option value="">All Objectives</option></select></label><label><span class="sr-only">Strategy Type</span><select id="categoryFilter"><option value="">All Categories</option></select></label><label><span class="sr-only">Duration</span><select id="timeFilter"><option value="">All Durations</option><option value="short">Up to 10 minutes</option><option value="medium">11–20 minutes</option><option value="long">More than 20 minutes</option></select></label><label><span class="sr-only">Suggested Grades</span><select id="stageFilter"><option value="">All Grades</option><option value="1-4">1–4</option><option value="5-8">5–8</option><option value="9-12">9–12</option></select></label><button class="reset-btn" id="resetBtn" type="button">Clear Filters</button></div>
+<div aria-label="Suggested grade ranges" class="filter-shortcuts"><span>Suggested grades:</span><button aria-pressed="true" class="stage-pill active" data-stage-chip="" type="button">All</button><button aria-pressed="false" class="stage-pill" data-stage-chip="1-4" type="button">1–4</button><button aria-pressed="false" class="stage-pill" data-stage-chip="5-8" type="button">5–8</button><button aria-pressed="false" class="stage-pill" data-stage-chip="9-12" type="button">9–12</button></div>
+<section class="decision-guide" id="strategyAdvisor" aria-labelledby="advisorTitle">
+  <div class="decision-guide-heading"><div><span class="eyebrow">Teacher's guide</span><h3 id="advisorTitle">Choose a strategy for your lesson</h3><p>Advisory suggestions based on the strategies' stated purposes, not research rankings or claims that one method is always best.</p></div><span aria-hidden="true" class="decision-guide-icon">✧</span></div>
+  <div class="decision-guide-inputs"><label>Lesson purpose<select id="recPurpose"><option value="">Choose a purpose</option></select></label><label>Grade band<select id="recGrade"><option value="">All grades</option><option value="1-4">1–4</option><option value="5-8">5–8</option><option value="9-12">9–12</option></select></label><label>Time available<select id="recTime"><option value="">Flexible</option><option value="10">Up to 10 min</option><option value="20">Up to 20 min</option><option value="40">Up to 40 min</option></select></label><button class="btn primary" id="recFind" type="button">Find strategies</button></div>
+  <div id="recResults" class="decision-guide-results" aria-live="polite" role="status"><p class="decision-guide-hint">Choose a lesson purpose to see suggested strategies.</p></div>
+ </section>
 <div aria-label="Compare two strategies" class="v63-tools"><h3>⇄ Compare Two Strategies</h3><label>First strategy<select id="compareA"></select></label><label>Second strategy<select id="compareB"></select></label><button class="btn primary" id="compareStart" type="button">Compare</button><p aria-live="polite" id="compareStatus" role="status"></p></div>
 <section aria-live="polite" class="favorites-notice" hidden="" id="favoritesNotice" role="status">
 <div aria-hidden="true" class="favorites-notice-icon">♡</div>
@@ -159,7 +174,7 @@
 <div class="mobile-footer-section mobile-footer-identity-v646">
 <span class="footer-identity-label">Prepared by</span>
 <strong>Biology Unit — Al Buraimi Directorate of Education</strong>
-<span class="footer-identity-label footer-preparation-label">Prepared by</span>
+
 <div aria-label="Authors" class="footer-name-list">
 <p>Dr. Sumayya bint Salim bin Mohammed Al Nuaimi</p>
 <p>Mr. Mohammed Sayed Abdel Sattar Salim</p>
@@ -173,7 +188,7 @@
 <section aria-labelledby="footerTeamTitle" class="footer-block footer-team footer-identity-v646">
 <span class="footer-kicker">Prepared by</span>
 <h2 id="footerTeamTitle">Biology Unit — Al Buraimi Directorate of Education</h2>
-<span class="footer-prep-label">Prepared by</span>
+
 <div aria-label="Names of the application authors" class="footer-names">
 <span>Dr. Sumayya bint Salim bin Mohammed Al Nuaimi</span>
 <span>Mr. Mohammed Sayed Abdel Sattar Salim</span>

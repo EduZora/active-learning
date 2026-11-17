@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://eduzora.github.io/active-learning/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/index-en.html" />
+  </url>
+  <url>
+    <loc>https://eduzora.github.io/active-learning/index-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/index-en.html" />
+  </url>
+  <url>
+    <loc>https://eduzora.github.io/active-learning/booklet.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/booklet.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/booklet-en.html" />
+  </url>
+  <url>
+    <loc>https://eduzora.github.io/active-learning/booklet-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/booklet.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/booklet-en.html" />
+  </url>
+  <url>
+    <loc>https://eduzora.github.io/active-learning/qr-gallery.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/qr-gallery.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/qr-gallery-en.html" />
+  </url>
+  <url>
+    <loc>https://eduzora.github.io/active-learning/qr-gallery-en.html</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://eduzora.github.io/active-learning/qr-gallery.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://eduzora.github.io/active-learning/qr-gallery-en.html" />
+  </url>
+</urlset>
